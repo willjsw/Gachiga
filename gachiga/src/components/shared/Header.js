@@ -2,26 +2,33 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+
 const MenubarPositioner = styled.div`
+  position: fixed;
+  top: 0;
   background-color: white;
-  height: 100px;
+  width: 100vw;
+  height: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 30px;
+
 `;
 
 const LogoImgPositioner = styled.img`
-  margin-left:20px;
-  width: 100x;
-  height: 50px;
+  margin-left: 13vw;
+  width: 80x;
+  height: 40px;
   cursor: pointer;
 `;
 
 const MenuElementPositioner = styled.div`
   width: fit-content;
-  margin-right: 30px;
+  margin-right: 11vw;
+  @media screen and (max-width: 800px) {
+    display: none;
+    }
 `;
 
 const MenuName = styled.ul`
@@ -29,37 +36,42 @@ const MenuName = styled.ul`
   postion: relative;
   float:left;
   font-size: 15px;
-  color: #01417F;
-  border-bottom:3px solid white;
+  font-family: "Pretendard-Medium";
   font-weight: bold;
+  color: black;
+  border-bottom:3px solid white;
   padding:10px 20px;
+  
   &:hover {
-
+    color: #01417F;
     border-bottom: 3px inset #01417F;
     cursor: pointer;
   }
 `;
 const MenuDropDown = styled.span`
 cursor: pointer; 
-right: 229px;
+right: 210px;
 transition: all 0.5s ease;
 align-items: center;
 margin-top:13px;
+margin-right:13vw;
 position: absolute;
 display: block;
 `
 const MenuItem = styled.li`
+margin: auto;
 transition: all 0.2s ease;
-color: #01417F;
+color: black;
 background-color: white;
-padding:10px 35.5px;
-font-weight: bold;
+padding:10px 46.9px;
 list-style-type:none;
 font-size: 15px;
+font-weight: bold;
+font-family: "Pretendard-Medium";
 
 &:hover {
-  color: white;
-  background-color: #01417F;
+  color: #01417F;
+  background-color: #f1f1f1;;
   cursor: pointer;
 }
 `
@@ -83,7 +95,6 @@ function NavItem(props) {
 function Header() {
 
   return (
- 
       <MenubarPositioner>
         <Link to="/">
           <LogoImgPositioner
@@ -95,7 +106,7 @@ function Header() {
 
         <MenuElementPositioner>
           <NavItem link ="/team" menu="회사 소개" />
-          <NavItem menu="서비스 소개">
+          <NavItem menu="서비스 소개 ▾">
                 <MenuDropDown>
                 <Link to="/service" style={{ textDecoration: 'none' }} className="link-line"><MenuItem>가치가</MenuItem></Link>
                 <Link to="/service" style={{ textDecoration: 'none' }} className="link-line"><MenuItem>먼저가</MenuItem></Link>

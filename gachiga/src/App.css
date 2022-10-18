@@ -36,15 +36,6 @@
     transform: rotate(360deg);
   }
 }
-@keyframes fadeInText {
-
-  100% {
-
-      opacity: 1;
-
-  }
-
-}
 
 @font-face {
   font-family: "Pretendard-Medium";     
@@ -53,4 +44,7 @@
 @font-face {
   font-family: "Pretendard-Regular";     
   src: url("./fonts/Pretendard-Regular.otf");
+}
+@media (max-width: 800px) {
+
 }
