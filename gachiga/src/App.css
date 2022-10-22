@@ -36,6 +36,11 @@
     transform: rotate(360deg);
   }
 }
+@keyframes fadeInText {
+  100% {
+      opacity: 1;
+  }
+}
 
 @font-face {
   font-family: "Pretendard-Medium";     

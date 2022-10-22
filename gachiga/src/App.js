@@ -5,8 +5,10 @@ import { FontStyle } from './FontStyle';
 import Home from './pages/Home';
 import Team from './pages/Team';
 import Service_Gachiga from './pages/Service_Gachiga';
-import FQA from './pages/FQA';
+import Service_Meonjeoga from './pages/Service_Meonjeoga';
+import FAQ from './pages/FAQ';
 import Career from './pages/Career';
+
 
 const Container = styled.div`
   position: absolute;
@@ -16,14 +18,17 @@ const Container = styled.div`
   height: 100vh;
 `;
 
+
 function App() {
+
     return(<Container>
         <FontStyle>
             <Routes>
                 <Route path="/" exact={true} element={<Home />} />
                 <Route path="/team" exact={true} element={<Team />} />
-                <Route path="/service" exact={true} element={<Service_Gachiga />} />
-                <Route path="/fqa" exact={true} element={<FQA />} />
+                <Route path="/service/gachiga" exact={true} element={<Service_Gachiga />} />
+                <Route path="/service/meonjeoga" exact={true} element={<Service_Meonjeoga />} />
+                <Route path="/faq" exact={true} element={<FAQ />} />
                 <Route path="/career" exact={true} element={<Career />} />
             </Routes>
         </FontStyle>

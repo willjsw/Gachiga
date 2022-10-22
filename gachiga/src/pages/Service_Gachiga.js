@@ -7,7 +7,7 @@ const Container = styled.div`
 `;
 
 
-function Service() {
+function Service_Gachiga() {
   return (
     <Container>
       <Header />
@@ -17,4 +17,4 @@ function Service() {
   );
 }
 
-export default Service;
+export default Service_Gachiga;
