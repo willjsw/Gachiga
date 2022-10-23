@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import FAQButton from './faq_button/FAQButton';
+import ControlledAccordions from "../../hooks/acordian"
 
 const MainContainer =styled.div`
 
@@ -50,7 +51,10 @@ justify-content: space-between;
 padding-top: 30vh;
 }
 `
-
+const ArcordianPositioner =styled.div`
+margin-top: 10vh;
+}
+`
 
 function FAQMain(){
 
@@ -65,6 +69,10 @@ function FAQMain(){
                         <FAQButton>먼저가</FAQButton>
                         <FAQButton>발품 매니저</FAQButton>
                         <FAQButton>기타</FAQButton>
+                        <ArcordianPositioner>
+                        <ControlledAccordions />
+                        </ArcordianPositioner>
+                        
 
                 </ButtonPositioner>
             </TextContainer>
