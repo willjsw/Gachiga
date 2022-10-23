@@ -21,15 +21,21 @@ const Image = styled.img`
   width:35.5vw;
 `;
 
-const imgUrl1 = process.env.PUBLIC_URL + '/img/review.png';
-const imgUrl2 = process.env.PUBLIC_URL + '/img/review.png';
-const imgUrl3 = process.env.PUBLIC_URL + '/img/review.png';
+const imgUrl1 = process.env.PUBLIC_URL + '/img/review1.png';
+const imgUrl2 = process.env.PUBLIC_URL + '/img/review2.png';
+const imgUrl3 = process.env.PUBLIC_URL + '/img/review3.png';
+const imgUrl4 = process.env.PUBLIC_URL + '/img/review4.png';
+const imgUrl5 = process.env.PUBLIC_URL + '/img/review5.png';
+const imgUrl6 = process.env.PUBLIC_URL + '/img/review6.png';
 
 
 const items = [
   { id: 1, url: imgUrl1 },
   { id: 2, url: imgUrl2 },
   { id: 3, url: imgUrl3 },
+  { id: 4, url: imgUrl4 },
+  { id: 5, url: imgUrl5 },
+  { id: 6, url: imgUrl6 },
 
 
 ];

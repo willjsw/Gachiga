@@ -72,8 +72,7 @@ function MeonjeogaPoint3(){
 페이퍼를 통해 생생한 현장을 경험해보세요
 <br/><br/>발품 매니저가 확인한 매물 정보와<br/>
 주변 지역의 인프라 정보를 정리한<br/>
-고객 맞춤형 보고서 제공
-저</Page_2_SubText>
+고객 맞춤형 보고서 제공</Page_2_SubText>
         </Page_2_TextContainer>
         <Page_2_Image />
     </Page_2_Container>

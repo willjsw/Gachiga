@@ -38,6 +38,3 @@ function App() {
 
 export default App;
 
-//            <Route path="/team" exact={true} element={<Team />} />
-//<Route path="/service" exact={true} element={<Service />} />
-//<Route path="/career" exact={true} element={<Career />} />

@@ -7,7 +7,7 @@ padding: 10vh 0vw;
 `
 const Text_Container = styled.div`
 itemt-alignt:center;
-text-align:left;
+text-align:center;
 justify-content: center;
 `
 const Title1 = styled.div`
