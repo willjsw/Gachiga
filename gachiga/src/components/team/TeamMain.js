@@ -31,7 +31,7 @@ margin-left:13vw;
 const MainText = styled.div`
 
 color: black;
-font-size:60px;
+font-size:3.5vw;
 font-weight: bold;
 
 font-family: "Pretendard-Medium";
@@ -44,9 +44,9 @@ font-size:30px;
 `
 const HomeSubText = styled.div`
 color: #333d4b;
-font-size: 20px;
+font-size: 1.5vw;
 font-weight: bold;
-padding-top: 12vh;
+padding-top: 17vh;
 font-family: "Pretendard-Medium";
 text-align:left;
 @media screen and (max-width: 800px) {
@@ -60,12 +60,8 @@ function TeamMain(){
     return(
         <MainContainer>
             <TextContainer><MainText>당신을 위한<br/><span style={{ color: "#01417F" }}>편안한</span><br/> 집 구하기</MainText>
-        <HomeSubText>가치가는 국내유일 집 구하기 <br/>온디맨드 서비스 O2O 플랫폼입니다</HomeSubText></TextContainer>
-            
-        <MainImage>
-            
-
-        </MainImage>
+        <HomeSubText>가치가는 국내유일 집 구하기 <br/>온디맨드 서비스 O2O 플랫폼입니다</HomeSubText></TextContainer>           
+        <MainImage />
         </MainContainer>
 
     );
