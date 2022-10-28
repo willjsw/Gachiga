@@ -12,7 +12,7 @@ font-size:18px;
 font-weight: bold;
 padding:2vh 4vw;
 cursor:pointer;
-transition:800ms ease all;
+transition:200ms ease all;
 outline:none;
 
 &:hover{
@@ -22,7 +22,7 @@ color:#01417F;
 }
 &:before,&:after{
 background: #01417F;
-transition:400ms ease all;
+transition:200ms ease all;
 }
 &:after{
 right:inherit;
@@ -32,7 +32,7 @@ bottom:0;
 }
 &:hover:before,&:hover:after{
 width:100%;
-transition:800ms ease all;
+transition:400ms ease all;
 }
 @media screen and (max-width: 800px) {
 padding:2vh 15vw;

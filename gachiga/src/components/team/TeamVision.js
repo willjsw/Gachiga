@@ -126,8 +126,8 @@ function TeamVision(){
         <GraphicContainer>
           <GraphicCircle imageUrl="/img/economic.png" fontsize="30px" fontweight="bold">
           <SubText id="sub" >경력단절여성 대상 일자리 창출<br/><br/>자립준비청년의<br/>홀로 서기 지원</SubText>
-        <SubText class="sub">매물의 하자 발생 가능성<br/>최소화를 통한 경제적 피해 예방</SubText>
-        <SubText class="sub" >대학가의 불법건축물 등<br/>청년 세대 주거 환경 의식 개선</SubText>
+          <SubText class="sub">매물의 하자 발생 가능성<br/>최소화를 통한 경제적 피해 예방</SubText>
+          <SubText class="sub" >대학가의 불법건축물 등<br/>청년 세대 주거 환경 의식 개선</SubText>
             Economic<br/>Impact</GraphicCircle>
         </GraphicContainer>
         

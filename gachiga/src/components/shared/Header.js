@@ -48,11 +48,11 @@ const MenuName = styled.ul`
 `
 const MenuDropDown = styled.span`
 cursor: pointer; 
-right: 210px;
+right: 13vw;
 transition: all 0.5s ease;
 align-items: center;
 margin-top:13px;
-margin-right:11vw;
+margin-right:11.3vw;
 position: absolute;
 display: block;
 `
@@ -61,7 +61,7 @@ margin: auto;
 transition: all 0.2s ease;
 color: black;
 background-color: white;
-padding:10px 46.9px;
+padding:10px 2.9vw;
 list-style-type:none;
 font-size: 15px;
 font-weight: bold;

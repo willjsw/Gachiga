@@ -19,6 +19,7 @@ function Team() {
       <TeamMission />
       <TeamVision />
       <TeamPeople />
+      <TeamNews />
       <Footer />
     </Container>
   );

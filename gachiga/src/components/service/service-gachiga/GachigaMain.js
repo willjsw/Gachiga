@@ -14,7 +14,7 @@ overflow-x: hidden;
 `;
 const MainText = styled.div`
 color: white;
-font-size:60px;
+font-size:5vw;
 font-weight: bold;
 padding-left: 13vw;
 padding-top: 30vh;
@@ -27,7 +27,7 @@ font-size:30px;
 `
 const HomeSubText = styled.div`
 color: white;
-font-size: 20px;
+font-size: 2vw;
 font-weight: bold;
 padding-top: 4vh;
 padding-left: 13vw;

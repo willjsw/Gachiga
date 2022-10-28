@@ -46,7 +46,7 @@ transition: 1s;
 `
 const Page_2_Image =styled.div`
 margin-right:11vw;
-width: 30%;
+width: 35%;
 height: 90vh;
 background-image: url("/img/homepage4_1_1.jpg");
 background-position: center center;

@@ -21,27 +21,21 @@ const Image = styled.img`
   width:35.5vw;
 `;
 
-const imgUrl1 = process.env.PUBLIC_URL + '/img/review1.png';
-const imgUrl2 = process.env.PUBLIC_URL + '/img/review2.png';
-const imgUrl3 = process.env.PUBLIC_URL + '/img/review3.png';
-const imgUrl4 = process.env.PUBLIC_URL + '/img/review4.png';
-const imgUrl5 = process.env.PUBLIC_URL + '/img/review5.png';
-const imgUrl6 = process.env.PUBLIC_URL + '/img/review6.png';
+const imgUrl1 = process.env.PUBLIC_URL + '/img/news.jpeg';
+const imgUrl2 = process.env.PUBLIC_URL + '/img/comingsoon.jpeg';
+const imgUrl3 = process.env.PUBLIC_URL + '/img/news.jpeg';
+const imgUrl4 = process.env.PUBLIC_URL + '/img/comingsoon.jpeg';
 
 
 const items = [
-  { id: 1, url: imgUrl1 },
-  { id: 2, url: imgUrl2 },
-  { id: 3, url: imgUrl3 },
-  { id: 4, url: imgUrl4 },
-  { id: 5, url: imgUrl5 },
-  { id: 6, url: imgUrl6 },
-
-
+  { id: 1, url: imgUrl1, href:"http://www.dailypop.kr/news/articleView.html?idxno=63755" },
+  { id: 2, url: imgUrl2, href: "javascript:void(0)"},
+  { id: 3, url: imgUrl3, href: "http://www.dailypop.kr/news/articleView.html?idxno=63755"},
+  { id: 4, url: imgUrl4, href: "javascript:void(0)"}
 ];
 
 
-export default class PaperSlider extends Component {
+export default class NewsSlider extends Component {
   render() {
     const settings = {
       dots: true,
@@ -53,7 +47,7 @@ export default class PaperSlider extends Component {
       centerMode: true,
       centerPadding: "1vw",
 
-      autoplay:true,
+      autoplay:false,
       autoplaySpeed: 1800,
       responsive: [
         {
@@ -82,7 +76,7 @@ export default class PaperSlider extends Component {
             return (
               <div key={item.id}>
                 <ImageContainer sdotsClass>
-                  <Image src={item.url} />
+                  <a href={item.href}><Image src={item.url} /></a>
                 </ImageContainer>
               </div>
             );

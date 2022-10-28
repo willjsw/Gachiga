@@ -156,7 +156,7 @@
 
 .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
   position: absolute;
-  bottom: 3vw;
+  bottom: 5vw;
   margin-bottom: 5vw;
   width: 100%;
 }
@@ -167,7 +167,7 @@
 }
 .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot {
  position: relative;
-  margin-top: 60px;
+  margin-top: 3vw;
   width: 100%;
 }
 .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img {
@@ -186,10 +186,10 @@ font-family: "Pretendard-Regular";
 }
 .ps-timeline-sec .container ol.ps-timeline li .ps-top {
   position: relative;
-  bottom: 400px;
+  bottom: 18vw;
 
 }
 .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
   position: relative;
-  margin-top: 35px;
+  margin-top: 2vw;
 }

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import TimeLine from "../../hooks/Timeline";
 
 const Page_1_Container = styled.div`
 background-color:#01417F;
@@ -24,7 +25,7 @@ text-align:center;
 `
 const Title2 = styled.div`
 margin-top:3vh;
-padding-bottom: 10vh;
+
 text-align:center;
 justify-content:center;
 color: #fff;
@@ -64,17 +65,7 @@ function TeamPeople(){
           <br />
           <br /><br />
           <Title2>팀 수상 경력</Title2>
-
-          <Text_Container>
-          <SubText2>
-            2022 DB-SNUbiz Global Start up Challenge 파이널 라운드 진출<br />
-            제4기 SNU 해동주니어 스타트업 프로그램 참가 기업 선정<br />
-            SC제일은행 청년제일 프로젝트 시즌 3 참가 프로젝트 선정<br />
-            서울대학교 벤처경영기업가센터 주관 2022 이상한 아이디어 공모전 소셜벤처 부문 수상<br />
-            2022년도 제15기 아이디어 사업화 발표대회 SHOW ME THE ITEM_신촌점 ‘우수선정자’ 선발
-
-          </SubText2>
-          </Text_Container>
+            <TimeLine></TimeLine>
           </Page_1_Container>
           
     );

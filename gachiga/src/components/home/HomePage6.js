@@ -5,7 +5,7 @@ const Page_6_Container = styled.div`
 background-color: #fff;
 justify-content: space-between;
 padding: 20vh 0;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     display:block;
     }
 `
@@ -88,7 +88,7 @@ function HomePage6(){
             <Page_6_CardText>가치가</Page_6_CardText>
         </Page_6_ServiceCard>
         </Link>
-        <Link to="/service/gachiga" style={{ textDecoration: 'none' }} className="link-line">
+        <Link to="/service/meonjeoga" style={{ textDecoration: 'none' }} className="link-line">
         <Page_6_ServiceCard>
         <Page_6_CardImage imageUrl="/img/service_meonjeoga.png" />
        <Page_6_CardText>먼저가</Page_6_CardText>

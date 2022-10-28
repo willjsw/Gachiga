@@ -7,7 +7,7 @@ background-image: url("/img/main.png");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     width: 100vw;
     height: 110vh;
     }
@@ -21,7 +21,7 @@ padding-top: 30vh;
 font-family: "Pretendard-Medium";
 text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 font-size:30px;
 }
 `
@@ -33,14 +33,14 @@ padding-top: 4vh;
 padding-left: 13vw;
 font-family: "Pretendard-Medium";
 text-align:left;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 font-size:15px;
 }
 `
 const ButtonPositioner =styled.div`
 padding-left:13vw;
 padding-top: 10vh;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 justify-content: center;
 padding-left:30vw;
 padding-top: 30vh;
@@ -78,13 +78,11 @@ bottom:0;
 width:100%;
 transition:800ms ease all;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 padding:2vh 15vw;
 }
 
 `
-
-
 
 function HomeMain(){
 

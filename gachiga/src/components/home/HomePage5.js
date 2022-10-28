@@ -42,7 +42,6 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
 opacity: 1;
-line-height: 5vh;
 transition: 1s;
 `
 const Page_5_Image =styled.div`
@@ -54,7 +53,7 @@ background-image: url("/img/homepage5.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
-box-shadow: -1vw 1vw 2vw gray;
+box-shadow: -1vw 1vw 1vw #dfdff;
 @media screen and (max-width: 800px) {
     margin-top: 14vh;
     margin-left: 13vw;

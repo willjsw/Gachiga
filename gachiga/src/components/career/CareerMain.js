@@ -11,7 +11,6 @@ padding: 25vh 0;
 `
 const MainImage = styled.div`
 margin-right:11vw;
-margin-top: 2vw;
 width: 37%;
 height: 60vh;
 background-image: url("/img/career.png");

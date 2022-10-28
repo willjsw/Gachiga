@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { Link } from 'react-router-dom';
 const FooterPositioner = styled.div`
   display: flex;
   flex-direction: column;
@@ -98,14 +98,16 @@ function Footer() {
       
       <CardPositioner>
       
-        <Anchor href="https://www.skku.edu/skku/etc/private.do" target="_blank">
+        <Anchor>
           <Card>블로그</Card>
         </Anchor>
-        <Anchor href="https://www.skku.edu/skku/etc/netizen.do" target="_blank">
-          <Card>이용약관</Card>
+        <Anchor>
+        <Link to="/terms/tos" target="_blank" style={{ textDecoration: 'none' }} className="link-line">
+        <Card>이용약관</Card>
+        </Link>
         </Anchor>
         <Anchor
-          href="https://www.skku.edu/skku/etc/pop_email.do"
+          href="https://instagram.com/gachiga.home?igshid=YmMyMTA2M2Y="
           target="_blank">
           <IconImgPositioner src={
             process.env.PUBLIC_URL + '/img/instagram_icon.png'
