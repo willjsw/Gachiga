@@ -3,7 +3,7 @@ import PaperSlider from "../../hooks/PaperSlider.js"
 
 const Page_4_Container = styled.div`
     background-color:#01417F;
-    padding: 20vh 0vw;  
+    padding: 15vh 0; 
 `
 const Page_4_TextContainer = styled.div`
 justify-content: center;
@@ -35,7 +35,7 @@ font-size:1.3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:center;
-line-height :160%;
+line-height: 1.7em; 
 `
 const Page_4_SlickContainer = styled.div`
     display: flex;

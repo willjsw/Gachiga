@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import SideMenu from './responsive/SideMenu';
 
 const Background = styled.div`
 width: 100vw;
@@ -23,18 +24,6 @@ text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
 @media screen and (max-width: 768px) {
 font-size:30px;
-}
-`
-const HomeSubText = styled.div`
-color: white;
-font-size: 20px;
-font-weight: bold;
-padding-top: 4vh;
-padding-left: 13vw;
-font-family: "Pretendard-Medium";
-text-align:left;
-@media screen and (max-width: 768px) {
-font-size:15px;
 }
 `
 const ButtonPositioner =styled.div`
@@ -90,11 +79,10 @@ function HomeMain(){
     return(
         <Background>
             <MainText>내 집 구하기,<br/>전문가와 현명하게!</MainText>
-            <HomeSubText>혼자 가기 불안한 발품 팔기,<br/>같이 가!</HomeSubText>
                 <ButtonPositioner>
                     <a href="https://smartstore.naver.com/gachigahome" target="_blank"rel="noopener noreferrer">
-                        <Button_1>가치가 예약하기</Button_1>
-                     </a>
+                        <Button_1>서비스 예약하기</Button_1>
+                    </a>
                 </ButtonPositioner>
         </Background>
 

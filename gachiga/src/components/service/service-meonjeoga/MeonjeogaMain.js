@@ -33,61 +33,14 @@ padding-top: 4vh;
 padding-left: 13vw;
 font-family: "Pretendard-Medium";
 text-align:left;
-@media screen and (max-width: 800px) {
+line-height: 1.7em;
+@media screen and (max-width: 768px) {
 font-size:15px;
 }
 `
-const ButtonPositioner =styled.div`
-padding-left:13vw;
-padding-top: 10vh;
-@media screen and (max-width: 800px) {
-justify-content: center;
-padding-left:30vw;
-padding-top: 30vh;
-}
-`
-const Button_1 = styled.button`
-background:#01417F;
-color:#fff;
-border:none;
-font-family: "Pretendard-Medium";
-text-align:center;
-font-size:18px;
-font-weight: bold;
-padding:2vh 5vw;
-cursor:pointer;
-transition:800ms ease all;
-outline:none;
-
-&:hover{
-
-background:#fff;
-color:#01417F;
-}
-&:before,&:after{
-background: #01417F;
-transition:400ms ease all;
-}
-&:after{
-right:inherit;
-top:inherit;
-left:0;
-bottom:0;
-}
-&:hover:before,&:hover:after{
-width:100%;
-transition:800ms ease all;
-}
-@media screen and (max-width: 800px) {
-padding:2vh 15vw;
-}
-
-`
-
 
 
 function MeonjeogaMain(){
-
 
     return(
         <Background>

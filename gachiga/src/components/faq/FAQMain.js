@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import FAQButton from './faq_button/FAQButton';
 import ControlledAccordions from "../../hooks/accordian"
 
 const MainContainer =styled.div`

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import {Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 import { FontStyle } from './FontStyle';
 import Home from './pages/Home';
@@ -11,6 +11,7 @@ import Career from './pages/Career';
 import Terms from './pages/Terms';
 
 
+
 const Container = styled.div`
   position: absolute;
   top: 100;
@@ -20,8 +21,9 @@ const Container = styled.div`
 `;
 
 
-function App() {
 
+function App() {
+    
     return(<Container>
         <FontStyle>
             <Routes>
@@ -36,7 +38,8 @@ function App() {
         </FontStyle>
     </Container>
   
-)}
+);
+}
 
 export default App;
 

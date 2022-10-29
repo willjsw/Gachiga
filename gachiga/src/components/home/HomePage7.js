@@ -3,7 +3,7 @@ import ReviewSlider from "../../hooks/ReviewSlider.js"
 
 const Page_4_Container = styled.div`
     background-color:#333d4b;
-    padding: 8vh 0vw;  
+    padding: 10vh 0vw;  
 `
 const Page_4_TextContainer = styled.div`
 justify-content: center;

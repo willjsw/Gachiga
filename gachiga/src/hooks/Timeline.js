@@ -5,7 +5,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 0 1rem;
-background: #01417F;
+background: #fff;
 padding: 3rem 0;
 `
 
@@ -23,7 +23,7 @@ position: relative;
 
 const TimeLineli = styled.li`
     padding-bottom: 1.5rem;
-    border-left: 1px solid #fff;
+    border-left: 1px solid#01417F;
     position: relative;
     padding-left: 20px;
     margin-left: 10px;
@@ -34,7 +34,7 @@ const TimeLineli = styled.li`
     content: "";
     width: 15px;
     height: 15px;
-    background: white;
+    background:#01417F;
     border: 1px solid #4e5ed3;
     border-radius: 50%;
     position: absolute;
@@ -43,8 +43,9 @@ const TimeLineli = styled.li`
   }
 `
 const TimeLineContent = styled.p`
-color: #fff;
+color: #01417F;
 font-family: "Pretendard-Medium";
+font-size: 1.3vw;
 line-height: 1.5;
 margin-top: 0.4rem;
 `

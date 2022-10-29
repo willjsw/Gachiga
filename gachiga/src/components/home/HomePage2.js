@@ -4,7 +4,7 @@ const Page_2_Container = styled.div`
 background-color: #fff;
 display:flex;
 justify-content: space-between;
-padding: 20vh 0;
+padding: 15vh 0; 
 @media screen and (max-width: 800px) {
     display:block;
     }
@@ -40,6 +40,7 @@ color: #757575;
 font-size:1.3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular";
+line-height: 1.7em; 
 text-align:left;
 opacity: 1;
 transition: 1s;
@@ -52,7 +53,7 @@ background-image: url("/img/homepage2.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
-box-shadow: -1vw 1vw 2vw gray;
+box-shadow: -0.5vw 0.5vw 1vw gray;
 @media screen and (max-width: 800px) {
     margin-top: 14vh;
     margin-left: 13vw;

@@ -19,10 +19,7 @@ justify-content: space-between;
 const Page_6_ServiceCard = styled.div`
 width: 35vw;
 overflow-x: hidden;
-box-shadow: 1vw 1vw 2vw gray;
-
-&:hover {
-}
+box-shadow: 0.5vw 0.5vw 1vw gray;
 `
 const CardImage = styled.div`
 background-image: url(${(props) => props.imageUrl ||"/img/service_gachiga.png"});
@@ -38,13 +35,21 @@ function Page_6_CardImage({imageUrl}){
     );
 
 }
-const Page_6_CardText = styled.div`
+const Page_6_CardTitle = styled.div`
 color: #333d4b;
 font-family: "Pretendard-Regular";
 font-size: 1.5vw;
 font-weight: bold;
 text-align:center;
 padding: 1vw;
+`
+const Page_6_CardText = styled.div`
+color: #333d4b;
+font-family: "Pretendard-Regular";
+font-size: 1.2vw;
+font-weight: bold;
+text-align:center;
+padding-bottom: 1vw;
 `
 
 const Page_6_TextContainer = styled.div`
@@ -85,13 +90,15 @@ function HomePage6(){
         <Link to="/service/gachiga" style={{ textDecoration: 'none' }} className="link-line">
         <Page_6_ServiceCard>
             <Page_6_CardImage imageUrl="/img/service_gachiga.png" />
-            <Page_6_CardText>가치가</Page_6_CardText>
+            <Page_6_CardTitle>가치가</Page_6_CardTitle>
+            <Page_6_CardText>집 구하기 동행 서비스</Page_6_CardText>
         </Page_6_ServiceCard>
         </Link>
         <Link to="/service/meonjeoga" style={{ textDecoration: 'none' }} className="link-line">
         <Page_6_ServiceCard>
         <Page_6_CardImage imageUrl="/img/service_meonjeoga.png" />
-       <Page_6_CardText>먼저가</Page_6_CardText>
+        <Page_6_CardTitle>먼저가</Page_6_CardTitle>
+            <Page_6_CardText>매물 사전 점검 서비스</Page_6_CardText>
         </Page_6_ServiceCard >
         </Link>
         </Page_6_ServiceCardContainer>

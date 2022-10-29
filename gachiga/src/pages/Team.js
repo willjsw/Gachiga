@@ -6,6 +6,7 @@ import TeamMission from "../components/team/TeamMission";
 import TeamVision from "../components/team/TeamVision";
 import TeamPeople from "../components/team/TeamPeople";
 import TeamNews from "../components/team/TeamNews";
+import TeamAward from "../components/team/TeamAward";
 const Container = styled.div`
 
   background-color: #fff;
@@ -19,6 +20,7 @@ function Team() {
       <TeamMission />
       <TeamVision />
       <TeamPeople />
+      <TeamAward />
       <TeamNews />
       <Footer />
     </Container>

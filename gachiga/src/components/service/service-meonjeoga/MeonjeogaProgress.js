@@ -3,7 +3,7 @@ import MeonjeogaTimeLine from "../../../hooks/MeonjeogaTimeLine";
 
 const Page_1_Container = styled.div`
 background-color: #fafafa;
-padding: 20vh 0vw; 
+padding: 15vh 0;
 justify-content: space-between;
 `
 const Page_1_Title = styled.div`

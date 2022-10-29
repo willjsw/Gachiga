@@ -4,7 +4,7 @@ const Page_5_Container = styled.div`
 background-color: #fafafa;
 display:flex;
 justify-content: space-between;
-padding: 20vh 0;
+padding: 15vh 0; 
 @media screen and (max-width: 800px) {
     display:block;
     }
@@ -41,19 +41,21 @@ font-size:1.3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
+line-height: 1.7em; 
 opacity: 1;
 transition: 1s;
 `
 const Page_5_Image =styled.div`
-border-radius: 12px;
+
+margin-top: 2.5vw;
 margin-right:11vw;
-width: 37%;
-height: 60vh;
-background-image: url("/img/homepage5.jpg");
+width: 40%;
+height: 30vh;
+background-image: url("/img/homepage5.jpeg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
-box-shadow: -1vw 1vw 1vw #dfdff;
+box-shadow: 0.5vw 0.5vw 1vw gray;
 @media screen and (max-width: 800px) {
     margin-top: 14vh;
     margin-left: 13vw;
