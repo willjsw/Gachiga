@@ -15,8 +15,9 @@ font-size: 1.5vw;
 font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:center;
-opacity: 1;
-transition: 2s;
+@media screen and (max-width: 768px) {
+    font-size: 20px;
+    } 
 `
 const Page_4_MainText = styled.div`
 margin-top:4vh;
@@ -25,8 +26,9 @@ font-size:3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:center;
-opacity: 1;
-transition: 2s;
+@media screen and (max-width: 768px) {
+    font-size: 40px;
+    } 
 `
 const Page_4_SubText = styled.div`
 margin-top:4vh;
@@ -35,7 +37,10 @@ font-size:1.3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:center;
-line-height: 1.7em; 
+line-height: 1.7em;
+@media screen and (max-width: 768px) {
+    font-size: 20px;
+    } 
 `
 const Page_4_SlickContainer = styled.div`
     display: flex;

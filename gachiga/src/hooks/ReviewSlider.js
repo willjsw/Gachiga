@@ -19,6 +19,9 @@ const ImageContainer = styled.div`
 `;
 const Image = styled.img`
   width:35.5vw;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    } 
 `;
 
 const imgUrl1 = process.env.PUBLIC_URL + '/img/review1.png';
@@ -61,18 +64,10 @@ export default class PaperSlider extends Component {
           settings: {
             arrows: false,
             centerMode: false,
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            arrows: false,
-            centerMode: false,
-            centerPadding: '2vw',
             slidesToShow: 1
           }
         }
+      
       ]
     };
     return (

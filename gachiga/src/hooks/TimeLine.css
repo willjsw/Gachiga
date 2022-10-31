@@ -5,7 +5,7 @@
 .ps-timeline-sec .container {
   position: relative;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .ps-timeline-sec .container ol:before {
     background: #01417F;
     content: "";
@@ -13,8 +13,8 @@
     height: 10px;
     border-radius: 100%;
     position: absolute;
-    top: 130px !important;
-    left: 36px !important;
+    top: 0px !important;
+    left: 21px !important;
   }
   .ps-timeline-sec .container ol:after {
     background: #01417F;
@@ -24,7 +24,7 @@
     border-radius: 100%;
     position: absolute;
     top: inherit !important;
-    left: 36px;
+    left: 21px;
   }
   .ps-timeline-sec .container ol.ps-timeline {
     margin: 130px 0 !important;
@@ -35,7 +35,7 @@
     margin-left: 25px !important;
   }
   .ps-timeline-sec .container ol.ps-timeline li {
-    height: 220px;
+    height: 150px;
     float: none !important;
     width: inherit !important;
   }
@@ -45,7 +45,7 @@
   .ps-timeline-sec .container ol.ps-timeline li:last-child {
     margin: 0;
     bottom: 0 !important;
-    height: 120px;
+    height: 150px;
   }
   .ps-timeline-sec .container ol.ps-timeline li:last-child .img-handler-bot {
     bottom: 40px !important;
@@ -70,7 +70,7 @@
     bottom: 150px !important;
     width: 30% !important;
     float: left !important;
-    margin-left: 35px !important;
+    margin-left: 50px !important;
     margin-bottom: 0 !important;
   }
   .ps-timeline-sec .container ol.ps-timeline li .img-handler-top img {
@@ -89,7 +89,7 @@
     text-align: left !important;
     width: 100% !important;
     margin: 0 auto !important;
-    margin-top: 0px !important;
+    margin-top: -20px !important;
   }
   .ps-timeline-sec .container ol.ps-timeline li .ps-top {
     width: 60% !important;
@@ -98,7 +98,7 @@
     top: -40px;
   }
   .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
-    width: 60% !important;
+    width: 50% !important;
     float: right !important;
     right: 0;
     top: -40px;
@@ -180,7 +180,7 @@
   width: 80%;
   margin: 0 auto;
   color: #333d4b;
-  font-size:1vw;
+  font-size:15px;
 font-weight: bold;
 font-family: "Pretendard-Regular";
 }

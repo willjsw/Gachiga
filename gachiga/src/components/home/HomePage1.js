@@ -5,14 +5,19 @@ background-color: #fafafa;
 padding: 15vh 0; 
 `
 const Page_1_Title = styled.div`
-padding-bottom: 17vh;
+padding-bottom: 15vh;
 text-align:center;
 justify-content:center;
 color: black;
 font-size:2.5vw;
 font-family: "Pretendard-Regular";
 font-weight: bold;
+line-height: 1.7em;
 text-align:center;
+@media screen and (max-width: 768px) {
+  font-size:30px;
+  padding-bottom: 50px;
+  }
 `
 const GraphicContainer =styled.div`
 item-align:center;
@@ -32,6 +37,10 @@ background: #bcd1f9ff;
 color:#01417F;
 border-radius: 50%;
 box-shadow: 0.5vw 0.5vw 1vw gray;
+@media screen and (max-width: 768px) {
+  width: 21vw;
+  height: 21vw;
+  }
 `
 const StyledGraphicText = styled.div`
 color: #01417F;
@@ -40,7 +49,9 @@ font-weight: ${(props) => props.fontweight || "600"};
 font-family: "Pretendard-Regular";
 text-align:center;
 margin-top:${(props) => props.margintop || "0"};
-
+@media screen and (max-width: 768px) {
+padding-top: 10px;
+  }
 `
 function GraphicText({children,fontsize,fontweight,margintop}){
 return (
@@ -53,7 +64,7 @@ return (
 function HomePage1(){
     return(
         <Page_1_Container>
-        <Page_1_Title>7월 13일부터 13명의 청년들이 가치가를 선택했습니다.</Page_1_Title>
+        <Page_1_Title>7월 13일부터 13명의 청년들이<br/>가치가를 선택했습니다.</Page_1_Title>
         <GraphicContainer>
           <GraphicCircle>
           <GraphicText fontsize="1.5vw" margintop="2.5vw">서비스 만족도</GraphicText>

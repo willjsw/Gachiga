@@ -5,8 +5,9 @@ display: flex;
 background-color: #f3f3f3;
 justify-content: space-between;
 padding: 20vh 0;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     display:block;
+    padding: 15vh 0;
     }
 `
 const MainImage = styled.div`
@@ -18,14 +19,32 @@ background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 box-shadow: -0.5vw 0.5vw 1vw gray;
-@media screen and (max-width: 800px) {
-    width: 47%;
-    height: 26vw;
+@media screen and (max-width: 768px) {
+    display: none;
     }
-`;
+`
+
+const MainImage_Media = styled.div`
+display: none;
+@media screen and (max-width: 768px) {
+ 
+    display: block;
+    margin: 0 auto;
+width: 70%;
+height: 50vh;
+background-image: url("/img/career.png");
+background-position: center center;
+background-size: cover;
+overflow-x: hidden;
+box-shadow: -0.5vw 0.5vw 1vw gray;
+    }
+`
 
 const TextContainer = styled.div`
 margin-left:13vw;
+@media screen and (max-width: 768px) {
+    margin: 0 auto;
+    }
 
 `
 const MainText = styled.div`
@@ -34,12 +53,13 @@ font-size:3vw;
 font-weight: bold;
 font-family: "Pretendard-Medium";
 text-align:left;
-animation: fadeInText 3s 2s ease-out forwards;
-@media screen and (max-width: 800px) {
-font-size:30px;
-}
+@media screen and (max-width: 768px) {
+    margin-bottom: 50px;
+    font-size:50px;
+    text-align:center;
+    }
 `
-const HomeSubText = styled.div`
+const SubText = styled.div`
 color: #333d4b;
 font-size: 20px;
 font-weight: bold;
@@ -47,30 +67,35 @@ padding-top: 10vh;
 font-family: "Pretendard-Medium";
 text-align:left;
 line-height: 1.7em;
-@media screen and (max-width: 800px) {
-font-size:15px;
+@media screen and (max-width: 768px) {
+font-size:20px;
+padding-top: 0vh;
+padding-bottom: 5vh;
+margin: 0 auto;
+text-align:center;
 }
 `
 const ButtonPositioner =styled.div`
 
 padding-top: 10vh;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 justify-content: center;
-padding-left:30vw;
-padding-top: 30vh;
+padding-left:13vw;
+padding-top: 5vh;
 }
 `
-const Button_1 = styled.button`
+const Button = styled.button`
 background:#01417F;
 color:#fff;
 border:none;
+border-radius: 5px;
 font-family: "Pretendard-Medium";
 text-align:center;
 font-size:18px;
 font-weight: bold;
 padding:2vh 5vw;
 cursor:pointer;
-transition:800ms ease all;
+transition:400ms ease all;
 outline:none;
 
 &:hover{
@@ -92,8 +117,8 @@ bottom:0;
 width:100%;
 transition:800ms ease all;
 }
-@media screen and (max-width: 800px) {
-padding:2vh 15vw;
+@media screen and (max-width: 768px) {
+padding:2vh 120px;
 }
 
 `
@@ -106,19 +131,18 @@ function CareerMain(){
         <MainContainer>
             <TextContainer>
                 <MainText>가치가의 파트너,<br/><span style={{ color: "#01417F" }}>발품 매니저</span></MainText>
-                <HomeSubText>월 최소 20만원의 수입,<br/>원하는 시간에 서비스를 진행하는<br/>발품 매니저에 지원해보세요! </HomeSubText>
+                
+                <SubText>월 최소 20만원의 수입,<br/>원하는 시간에 서비스를 진행하는<br/>발품 매니저에 지원해보세요! </SubText>
+                <MainImage_Media />
                 <ButtonPositioner>
                     <a href="https://smartstore.naver.com/gachigahome" target="_blank"rel="noopener noreferrer">
-                        <Button_1>30초만에 지원하기</Button_1>
+                        <Button>30초만에 지원하기</Button>
                      </a>
                 </ButtonPositioner>
             </TextContainer>
            
             
-        <MainImage>
-            
-
-        </MainImage>
+        <MainImage />
         </MainContainer>
 
     );

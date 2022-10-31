@@ -7,9 +7,9 @@ background-image: url("/img/meonjeogaMain.png");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     width: 100vw;
-    height: 110vh;
+    height: 120vh;
     }
 `;
 const MainText = styled.div`
@@ -21,11 +21,11 @@ padding-top: 30vh;
 font-family: "Pretendard-Medium";
 text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
-@media screen and (max-width: 800px) {
-font-size:30px;
+@media screen and (max-width: 768px) {
+font-size:40px;
 }
 `
-const HomeSubText = styled.div`
+const SubText = styled.div`
 color: white;
 font-size: 20px;
 font-weight: bold;
@@ -35,7 +35,7 @@ font-family: "Pretendard-Medium";
 text-align:left;
 line-height: 1.7em;
 @media screen and (max-width: 768px) {
-font-size:15px;
+font-size:20px;
 }
 `
 
@@ -45,7 +45,7 @@ function MeonjeogaMain(){
     return(
         <Background>
             <MainText>먼저가 서비스</MainText>
-            <HomeSubText>국내유일 매물 사전 점검 서비스</HomeSubText>
+            <SubText>국내유일 매물 사전 점검 서비스</SubText>
         </Background>
 
     );

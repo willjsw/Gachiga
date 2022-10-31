@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import ControlledAccordions from "../../hooks/accordian"
 
 const MainContainer =styled.div`
-
 background-color: #f3f3f3;
 justify-content: space-between;
 padding: 25vh 0;
@@ -32,12 +31,11 @@ font-size:30px;
 }
 `
 const ButtonPositioner =styled.div`
-
+display: flex;
 padding-top: 10vh;
-@media screen and (max-width: 800px) {
-justify-content: space-between;
-
-padding-top: 30vh;
+@media screen and (max-width: 768px) {
+display: block;
+margin: 0 auto;
 }
 `
 
@@ -45,7 +43,7 @@ const Button = styled.button`
 margin-right: 4vw;
 background:#01417F;
 color:#fff;
-border-radius:12px;
+border-radius:5px;
 border:none;
 font-family: "Pretendard-Medium";
 text-align:center;
@@ -75,8 +73,9 @@ bottom:0;
 width:100%;
 transition:400ms ease all;
 }
-@media screen and (max-width: 800px) {
-padding:2vh 15vw;
+@media screen and (max-width: 768px) {
+padding:2vh 40px;
+
 }
 
 `
@@ -85,7 +84,14 @@ const AccordianPositioner =styled.div`
 margin-top: 10vh;
 }
 `
+const Media_Container =styled.div`
+display: flex;
+@media screen and (max-width: 768px) {
+    display: block;
+    padding: 10px;
+    }
 
+`
 
 
 function FAQMain(){
@@ -94,6 +100,7 @@ function FAQMain(){
     
     const category1 = () => {
         setCategory("category1");
+        
     };
     const category2 = () => {
         setCategory("category2");
@@ -105,20 +112,27 @@ function FAQMain(){
         setCategory("category4");
     };
 
+    
     return(
         <MainContainer>
             <TextContainer>
                 <MainText>자주 묻는 질문</MainText>
      
-                <ButtonPositioner>
+            <ButtonPositioner>
+                    <Media_Container>
                         <Button onClick={category1}>가치가</Button>
                         <Button onClick={category2}>먼저가</Button>
+                    </Media_Container>
+                    <Media_Container>
                         <Button onClick={category3}>발품 매니저</Button>
                         <Button onClick={category4}>기타</Button>
+                        </Media_Container>
+             
+                    </ButtonPositioner>
                         <AccordianPositioner>
                             <ControlledAccordions category={category}/>
                         </AccordianPositioner>
-                </ButtonPositioner>
+            
             </TextContainer>
         </MainContainer>
 

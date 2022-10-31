@@ -7,6 +7,9 @@ align-items: center;
 padding: 0 1rem;
 background: #fff;
 padding: 3rem 0;
+@media screen and (max-width: 768px) {
+  padding: 0 0;
+  } 
 `
 
 const Wrapper = styled.div`

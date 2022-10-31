@@ -66,12 +66,6 @@ const TextPositioner = styled.span`
   align-items: left;
 `;
 
-const ContactPositioner = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: left;
-`;
 
 
 const Contact = styled.div`

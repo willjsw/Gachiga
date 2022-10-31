@@ -20,6 +20,9 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   width:20vw;
   filter: drop-shadow(0.25vw 0.25vw 0.25vw #111);
+  @media screen and (max-width: 768px) {
+    width: 330px;
+    } 
 `;
 
 const imgUrl1 = process.env.PUBLIC_URL + '/img/homepage4_1_1.jpg';
@@ -59,17 +62,9 @@ export default class PaperSlider extends Component {
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '2vw',
-            slidesToShow: 3
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '2vw',
-            slidesToShow: 1
+            centerPadding: '5vw',
+            slidesToShow: 1,
+            slidesToScroll: 1
           }
         }
       ]

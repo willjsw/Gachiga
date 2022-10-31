@@ -15,11 +15,23 @@ margin-top:8vh;
 margin-left: 13vw;
 margin-right:11vw;
 justify-content: space-between;
+@media screen and (max-width: 768px) {
+    display:block;
+    }
+`
+const CardContainer = styled.div`
+@media screen and (max-width: 768px) {
+    margin: 0 auto;
+    }
 `
 const Page_6_ServiceCard = styled.div`
 width: 35vw;
 overflow-x: hidden;
 box-shadow: 0.5vw 0.5vw 1vw gray;
+@media screen and (max-width: 768px) {
+    width: 400px;
+    margin-top: 50px;
+    }
 `
 const CardImage = styled.div`
 background-image: url(${(props) => props.imageUrl ||"/img/service_gachiga.png"});
@@ -28,6 +40,9 @@ height:40vh;
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
+@media screen and (max-width: 768px) {
+    width: 400px;
+    }
 `
 function Page_6_CardImage({imageUrl}){
     return(
@@ -42,6 +57,9 @@ font-size: 1.5vw;
 font-weight: bold;
 text-align:center;
 padding: 1vw;
+@media screen and (max-width: 768px) {
+    font-size: 20px;
+    } 
 `
 const Page_6_CardText = styled.div`
 color: #333d4b;
@@ -50,6 +68,9 @@ font-size: 1.2vw;
 font-weight: bold;
 text-align:center;
 padding-bottom: 1vw;
+@media screen and (max-width: 768px) {
+    font-size: 15px;
+    } 
 `
 
 const Page_6_TextContainer = styled.div`
@@ -64,21 +85,21 @@ font-size:3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:center;
-opacity: 1;
-transition: 2s;
+@media screen and (max-width: 768px) {
+    font-size: 40px;
+    } 
 `
 const Page_6_SubText = styled.div`
 margin-top: 5vh;
-
 color: #01417F;
 font-size: 1.5vw;
 font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:center;
-opacity: 1;
-transition: all 1s ease;
+@media screen and (max-width: 768px) {
+    font-size: 20px;
+    } 
 `
-
 function HomePage6(){
     return(
         <Page_6_Container>
@@ -89,8 +110,12 @@ function HomePage6(){
         <Page_6_ServiceCardContainer>
         <Link to="/service/gachiga" style={{ textDecoration: 'none' }} className="link-line">
         <Page_6_ServiceCard>
+            <CardContainer>
             <Page_6_CardImage imageUrl="/img/service_gachiga.png" />
+            </CardContainer>
+            <CardContainer>
             <Page_6_CardTitle>가치가</Page_6_CardTitle>
+            </CardContainer>
             <Page_6_CardText>집 구하기 동행 서비스</Page_6_CardText>
         </Page_6_ServiceCard>
         </Link>

@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 
 const TeamMission_Container = styled.div`
-background-color: #fff;
-
+background-color: #fafafa;
 justify-content: space-between;
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     display:block;
     }
 `
@@ -18,27 +16,29 @@ background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 @media screen and (max-width: 800px) {
-    width: 100vw;
-    height: 110vh;
+    background-position: -420px center;
+    width: 100%;
+    height: 480px;
     }
 `;
 const MainText = styled.div`
-position:absolute;
-top: 70vw;
+position:relative;
+top: -80vh;
 color: white;
-font-size:4vw;
+font-size:5vw;
 font-weight: bold;
 padding-left: 13vw;
 font-family: "Pretendard-Medium";
 text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
 @media screen and (max-width: 800px) {
-font-size:30px;
+font-size:40px;
+top:-430px;
 }
 `
 const SubText = styled.div`
-position:absolute;
-top:75vw;
+position:relative;
+top:-80vh;
 color: white;
 font-size: 2vw;
 font-weight: bold;
@@ -47,7 +47,8 @@ padding-left: 13vw;
 font-family: "Pretendard-Medium";
 text-align:left;
 @media screen and (max-width: 800px) {
-font-size:15px;
+font-size:20px;
+top:-450px;
 }
 `
 

@@ -5,22 +5,22 @@ background-color: #fff;
 display:flex;
 justify-content: space-between;
 padding: 15vh 0; 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     display:block;
     }
 `
 const Page_2_TextContainer = styled.div`
 `
 const Page_2_Title = styled.div`
-margin-top: 5vh;
 margin-left: 13vw;
 color: #01417F;
 font-size: 1.5vw;
 font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:center;
-opacity: 1;
-transition: all 1s ease;
+@media screen and (max-width: 768px) {
+    font-size: 20px;
+    }
 `
 const Page_2_MainText = styled.div`
 margin-left: 13vw;
@@ -30,8 +30,9 @@ font-size: 3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
-opacity: 1;
-transition: 1s;
+@media screen and (max-width: 768px) {
+    font-size: 40px;
+    }
 `
 const Page_2_SubText = styled.div`
 margin-left: 13vw;
@@ -42,8 +43,9 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 line-height: 1.7em; 
 text-align:left;
-opacity: 1;
-transition: 1s;
+@media screen and (max-width: 768px) {
+    font-size: 20px;
+    }
 `
 const Page_2_Image =styled.div`
 margin-right:11vw;
@@ -55,7 +57,7 @@ background-size: cover;
 overflow-x: hidden;
 box-shadow: -0.5vw 0.5vw 1vw gray;
 @media screen and (max-width: 800px) {
-    margin-top: 14vh;
+    margin-top: 30px;
     margin-left: 13vw;
     width: 80%;
     height: 40vh;

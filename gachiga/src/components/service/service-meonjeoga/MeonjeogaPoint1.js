@@ -1,28 +1,29 @@
 import styled from "styled-components";
 
-const Page_2_Container = styled.div`
+const Container = styled.div`
 background-color: #fff;
 display:flex;
 justify-content: space-between;
 padding: 15vh 0; 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     display:block;
+    padding: 10vh 0; 
     }
 `
-const Page_2_TextContainer = styled.div`
+const TextContainer = styled.div`
 `
-const Page_2_Title = styled.div`
-margin-top: 5vh;
+const Title = styled.div`
 margin-left: 13vw;
 color: #01417F;
 font-size: 1.5vw;
 font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:center;
-opacity: 1;
-transition: all 1s ease;
+@media screen and (max-width: 768px) {
+    font-size: 20px;
+     } 
 `
-const Page_2_MainText = styled.div`
+const MainText = styled.div`
 margin-left: 13vw;
 margin-top: 4vh;
 color: #333d4b;
@@ -30,10 +31,11 @@ font-size: 3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
-opacity: 1;
-transition: 1s;
+@media screen and (max-width: 768px) {
+    font-size: 40px;
+     } 
 `
-const Page_2_SubText = styled.div`
+const SubText = styled.div`
 margin-left: 13vw;
 margin-top:4vh;
 color: #757575;
@@ -42,10 +44,11 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
 line-height: 1.7em; 
-opacity: 1;
-transition: 1s;
+@media screen and (max-width: 768px) {
+    font-size: 20px;
+     } 
 `
-const Page_2_Image =styled.div`
+const Image =styled.div`
 margin-right:11vw;
 width: 37%;
 height: 60vh;
@@ -54,8 +57,8 @@ background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 box-shadow: -0.5vw 0.5vw 1vw gray;
-@media screen and (max-width: 800px) {
-    margin-top: 14vh;
+@media screen and (max-width: 768px) {
+    margin-top: 5vh;
     margin-left: 13vw;
     width: 80%;
     height: 40vh;
@@ -65,19 +68,14 @@ box-shadow: -0.5vw 0.5vw 1vw gray;
 
 function MeonjeogaPoint1(){
     return(
-        <Page_2_Container>
-        <Page_2_TextContainer>
-            <Page_2_Title>Point 1</Page_2_Title>
-            <Page_2_MainText>발품 매니저의 매물 확인</Page_2_MainText>
-            <Page_2_SubText>거주 희망 사항 최우선 반영,<br/>
-직접 가보지 않아도<br/>
-믿고 맡길 수 있는 발품 팔기<br/>
-집안 곳곳의 요소를 체크하는 매니저
-
-</Page_2_SubText>
-        </Page_2_TextContainer>
-        <Page_2_Image />
-    </Page_2_Container>
+        <Container>
+        <TextContainer>
+            <Title>Point 1</Title>
+            <MainText>발품 매니저의 매물 확인</MainText>
+            <SubText>거주 희망 사항 최우선 반영,<br/>직접 가보지 않아도<br/>믿고 맡길 수 있는 발품 팔기<br/>집안 곳곳의 요소를 체크하는 매니저</SubText>
+        </TextContainer>
+        <Image />
+    </Container>
     );
 }
 

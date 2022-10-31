@@ -7,9 +7,10 @@ background-image: url("/img/main.png");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+    background-position: -520px center;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     }
 `;
 const MainText = styled.div`
@@ -22,10 +23,10 @@ font-family: "Pretendard-Medium";
 text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
 @media screen and (max-width: 800px) {
-font-size:30px;
+font-size:40px;
 }
 `
-const HomeSubText = styled.div`
+const SubText = styled.div`
 color: white;
 font-size: 2vw;
 font-weight: bold;
@@ -34,54 +35,8 @@ padding-left: 13vw;
 font-family: "Pretendard-Medium";
 text-align:left;
 @media screen and (max-width: 800px) {
-font-size:15px;
+font-size:20px;
 }
-`
-const ButtonPositioner =styled.div`
-padding-left:13vw;
-padding-top: 10vh;
-@media screen and (max-width: 800px) {
-justify-content: center;
-padding-left:30vw;
-padding-top: 30vh;
-}
-`
-const Button_1 = styled.button`
-background:#01417F;
-color:#fff;
-border:none;
-font-family: "Pretendard-Medium";
-text-align:center;
-font-size:18px;
-font-weight: bold;
-padding:2vh 5vw;
-cursor:pointer;
-transition:800ms ease all;
-outline:none;
-
-&:hover{
-
-background:#fff;
-color:#01417F;
-}
-&:before,&:after{
-background: #01417F;
-transition:400ms ease all;
-}
-&:after{
-right:inherit;
-top:inherit;
-left:0;
-bottom:0;
-}
-&:hover:before,&:hover:after{
-width:100%;
-transition:800ms ease all;
-}
-@media screen and (max-width: 800px) {
-padding:2vh 15vw;
-}
-
 `
 
 
@@ -92,7 +47,7 @@ function GachigaMain(){
     return(
         <Background>
             <MainText>가치가 서비스</MainText>
-            <HomeSubText>고객 맞춤 집 구하기 동행 서비스</HomeSubText>
+            <SubText>고객 맞춤 집 구하기 동행 서비스</SubText>
         </Background>
 
     );

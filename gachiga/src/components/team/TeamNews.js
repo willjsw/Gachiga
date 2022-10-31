@@ -2,11 +2,15 @@ import styled from "styled-components";
 import NewsSlider from "../../hooks/NewsSlider.js";
 
 
-const Page_1_Container = styled.div`
+const Container = styled.div`
 background-color: #fafafa;
-padding: 20vh 0vw;  
+padding: 20vh 0vw;
+@media screen and (max-width: 768px) {
+  padding: 10vh 0;
+  } 
+
 `
-const Page_1_Title = styled.div`
+const Title = styled.div`
 padding-bottom: 5vh;
 text-align:center;
 justify-content:center;
@@ -16,9 +20,13 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 
 text-align:center;
+@media screen and (max-width: 768px) {
+  font-size: 40px;
+  } 
+
 `
 
-const Page_4_SlickContainer = styled.div`
+const SlickContainer = styled.div`
 
 padding: 2vw 0;
     display: flex;
@@ -29,12 +37,12 @@ padding: 2vw 0;
 
 function TeamNews(){
     return(
-        <Page_1_Container>
-        <Page_1_Title>News</Page_1_Title>
-      <Page_4_SlickContainer>
+        <Container>
+        <Title>News</Title>
+      <SlickContainer>
         <NewsSlider />
-      </Page_4_SlickContainer>
-          </Page_1_Container>
+      </SlickContainer>
+          </Container>
           
     );
 }

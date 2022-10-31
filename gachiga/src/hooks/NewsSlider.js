@@ -19,6 +19,9 @@ const ImageContainer = styled.div`
 `;
 const Image = styled.img`
   width:35.5vw;
+  @media screen and (max-width: 768px) {
+    width:100%;
+    } 
 `;
 
 const imgUrl1 = process.env.PUBLIC_URL + '/img/news.jpeg';
@@ -54,16 +57,7 @@ export default class NewsSlider extends Component {
           breakpoint: 768,
           settings: {
             arrows: false,
-            centerMode: false,
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            arrows: false,
-            centerMode: false,
-            centerPadding: '2vw',
+            centerMode: true,
             slidesToShow: 1
           }
         }
@@ -76,7 +70,7 @@ export default class NewsSlider extends Component {
             return (
               <div key={item.id}>
                 <ImageContainer sdotsClass>
-                  <a href={item.href}><Image src={item.url} /></a>
+                  <a href={item.href} target="_blank"><Image src={item.url} /></a>
                 </ImageContainer>
               </div>
             );
