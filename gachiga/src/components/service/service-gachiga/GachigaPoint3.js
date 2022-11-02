@@ -61,7 +61,7 @@ box-shadow: -0.5vw 0.5vw 1vw gray;
     margin-top: 40px;
     margin-left: 13vw;
     width: 80%;
-    height: 26vh;
+    height: 58vw;
     } 
 `
 

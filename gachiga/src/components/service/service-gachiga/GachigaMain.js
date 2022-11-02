@@ -10,7 +10,7 @@ overflow-x: hidden;
 @media screen and (max-width: 768px) {
     background-position: -180vw center;
     width: 100vw;
-    height: 100vh;
+    height: 230vw;
     }
 `
 const MainText = styled.div`

@@ -28,11 +28,10 @@ box-shadow: -0.5vw 0.5vw 1vw gray;
 const MainImage_Media = styled.div`
 display: none;
 @media screen and (max-width: 768px) {
- 
 display: block;
 margin: 0 auto;
 width: 70%;
-height: 40vh;
+height: 85vw;
 background-image: url("/img/career.jpg");
 background-position: center center;
 background-size: cover;

@@ -9,7 +9,7 @@ background-size: cover;
 overflow-x: hidden;
 @media screen and (max-width: 768px) {
     width: 100vw;
-    height: 120vh;
+    height: 250vw;
     }
 `;
 const MainText = styled.div`
@@ -35,6 +35,7 @@ font-family: "Pretendard-Medium";
 text-align:left;
 line-height: 1.7em;
 @media screen and (max-width: 768px) {
+padding-top: 20px;
 font-size:20px;
 }
 `
