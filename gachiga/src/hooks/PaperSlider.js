@@ -21,7 +21,7 @@ const Image = styled.img`
   width:20vw;
   filter: drop-shadow(0.25vw 0.25vw 0.25vw #111);
   @media screen and (max-width: 768px) {
-    width: 330px;
+    width: 65vw;
     } 
 `;
 

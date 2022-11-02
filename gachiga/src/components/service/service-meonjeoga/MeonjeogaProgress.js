@@ -14,7 +14,7 @@ font-size:3vw;
 font-weight: bold;
 font-family: "Pretendard-Regular";
 @media screen and (max-width: 768px) {
-    font-size: 25px;
+    font-size: 4.5vw;
     }
 
 `

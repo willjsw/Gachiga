@@ -29,19 +29,19 @@ width: 35vw;
 overflow-x: hidden;
 box-shadow: 0.5vw 0.5vw 1vw gray;
 @media screen and (max-width: 768px) {
-    width: 400px;
+    width: 80vw;
     margin-top: 50px;
     }
 `
 const CardImage = styled.div`
-background-image: url(${(props) => props.imageUrl ||"/img/service_gachiga.png"});
+background-image: url(${(props) => props.imageUrl ||"/img/service_gachiga.jpg"});
 width: 35vw;
 height:40vh;
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 @media screen and (max-width: 768px) {
-    width: 400px;
+    width: 80vw;
     }
 `
 function Page_6_CardImage({imageUrl}){
@@ -58,7 +58,7 @@ font-weight: bold;
 text-align:center;
 padding: 1vw;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 5vw;
     } 
 `
 const Page_6_CardText = styled.div`
@@ -69,7 +69,7 @@ font-weight: bold;
 text-align:center;
 padding-bottom: 1vw;
 @media screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 3vw;
     } 
 `
 
@@ -86,7 +86,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:center;
 @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 9vw;
     } 
 `
 const Page_6_SubText = styled.div`
@@ -97,7 +97,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:center;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 5vw;
     } 
 `
 function HomePage6(){
@@ -111,7 +111,7 @@ function HomePage6(){
         <Link to="/service/gachiga" style={{ textDecoration: 'none' }} className="link-line">
         <Page_6_ServiceCard>
             <CardContainer>
-            <Page_6_CardImage imageUrl="/img/service_gachiga.png" />
+            <Page_6_CardImage imageUrl="/img/service_gachiga.jpg" />
             </CardContainer>
             <CardContainer>
             <Page_6_CardTitle>가치가</Page_6_CardTitle>
@@ -121,7 +121,7 @@ function HomePage6(){
         </Link>
         <Link to="/service/meonjeoga" style={{ textDecoration: 'none' }} className="link-line">
         <Page_6_ServiceCard>
-        <Page_6_CardImage imageUrl="/img/service_meonjeoga.png" />
+        <Page_6_CardImage imageUrl="/img/service_meonjeoga.jpg" />
         <Page_6_CardTitle>먼저가</Page_6_CardTitle>
             <Page_6_CardText>매물 사전 점검 서비스</Page_6_CardText>
         </Page_6_ServiceCard >

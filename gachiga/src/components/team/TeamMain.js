@@ -44,7 +44,7 @@ overflow-x: hidden;
 `
 const TextContainer = styled.div`
 margin-left:13vw;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     margin: 0 auto;
     }
 `

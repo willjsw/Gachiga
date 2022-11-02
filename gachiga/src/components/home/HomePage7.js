@@ -20,7 +20,7 @@ text-align: left;
 @media screen and (max-width: 768px) {
     margin: 0 auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 7vw;
     } 
 `
 const Page_4_SlickContainer = styled.div`

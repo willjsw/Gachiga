@@ -16,7 +16,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:center;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 5vw;
     } 
 `
 const Page_4_MainText = styled.div`
@@ -27,7 +27,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:center;
 @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 9vw;
     } 
 `
 const Page_4_SubText = styled.div`
@@ -39,7 +39,7 @@ font-family: "Pretendard-Regular"
 text-align:center;
 line-height: 1.7em;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 4vw;
     } 
 `
 const Page_4_SlickContainer = styled.div`

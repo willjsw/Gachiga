@@ -26,7 +26,7 @@ position: relative;
 
 const TimeLineli = styled.li`
     padding-bottom: 1.5rem;
-    border-left: 1px solid#01417F;
+    border-left: 1px solid #01417F;
     position: relative;
     padding-left: 20px;
     margin-left: 10px;
@@ -44,13 +44,19 @@ const TimeLineli = styled.li`
     left: -9px;
     top: 0px;
   }
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+    } 
 `
 const TimeLineContent = styled.p`
 color: #01417F;
 font-family: "Pretendard-Medium";
-font-size: 1.3vw;
+font-size: 1.5vw;
 line-height: 1.5;
 margin-top: 0.4rem;
+@media screen and (max-width: 768px) {
+  font-size: 2.5vw;
+  } 
 `
 
 
@@ -71,10 +77,10 @@ function TimeLine(){
         <TimeLineContent>SC제일은행 청년제일 프로젝트 시즌 3 참가 프로젝트 선정</TimeLineContent>
       </TimeLineli>
       <TimeLineli>
-        <TimeLineContent>서울대학교 벤처경영기업가센터 주관 2022 이상한 아이디어 공모전 소셜벤처 부문 수상</TimeLineContent>
+        <TimeLineContent>서울대학교 벤처경영기업가센터 주관 <br/>2022 이상한 아이디어 공모전 소셜벤처 부문 수상</TimeLineContent>
       </TimeLineli>
       <TimeLineli>
-        <TimeLineContent>2022년도 제15기 아이디어 사업화 발표대회 SHOW ME THE ITEM_신촌점 ‘우수선정자’ 선발</TimeLineContent>
+        <TimeLineContent>2022년도 제15기 아이디어 사업화 발표대회 <br/>SHOW ME THE ITEM_신촌점 ‘우수선정자’ 선발</TimeLineContent>
       </TimeLineli>
     </TimelineUl>
   </Wrapper>

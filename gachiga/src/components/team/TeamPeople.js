@@ -3,8 +3,10 @@ import styled from "styled-components";
 
 const Container = styled.div`
 background-color:#01417F;
-padding: 15vh 0;  
-
+padding: 15vh 0;
+@media screen and (max-width: 768px) {
+  
+  }
 `
 const Title = styled.div`
 margin-top:3vh;
@@ -17,7 +19,9 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:center;
 @media screen and (max-width: 768px) {
-  font-size: 40px;
+  margin: 0 auto;
+  padding-bottom: 20vw;
+  font-size:12vw;
   } 
 `
 
@@ -31,22 +35,23 @@ text-align:center;
 line-height: 1.7em; 
 
 @media screen and (max-width: 768px) {
-  margin-top: 40px;
-  font-size: 20px;
+  margin-top: 20vw;
+  padding-bottom: 20vw;
+  font-size: 4vw;
   } 
 `
 const Image =styled.div`
 margin: 0 auto;
-width: 30%;
+width: 50%;
 height: 60vh;
-background-image: url("/img/teampeople.jpeg");
+background-image: url("/img/people.jpeg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 
 @media screen and (max-width: 768px) {
-    width: 60%;
-    height: 50vh;
+    width: 80vw;
+    height: 60vw;
     } 
 `
 

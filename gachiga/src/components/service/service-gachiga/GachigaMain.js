@@ -3,16 +3,16 @@ import styled from 'styled-components';
 const Background = styled.div`
 width: 100vw;
 height: 110vh;
-background-image: url("/img/main.png");
+background-image: url("/img/main.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 @media screen and (max-width: 768px) {
-    background-position: -520px center;
+    background-position: -180vw center;
     width: 100vw;
     height: 100vh;
     }
-`;
+`
 const MainText = styled.div`
 color: white;
 font-size:5vw;
@@ -22,7 +22,7 @@ padding-top: 30vh;
 font-family: "Pretendard-Medium";
 text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 font-size:40px;
 }
 `
@@ -34,7 +34,7 @@ padding-top: 4vh;
 padding-left: 13vw;
 font-family: "Pretendard-Medium";
 text-align:left;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 font-size:20px;
 }
 `

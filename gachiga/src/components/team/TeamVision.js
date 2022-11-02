@@ -18,7 +18,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:center;
 @media screen and (max-width: 768px) {
-  font-size:50px;
+  font-size:12vw;
   }
 `
 
@@ -33,20 +33,12 @@ line-height: 1.7em;
 padding-left: 2vw;
 padding-top: 2.5vw;
 @media screen and (max-width: 768px) {
-  font-size:18px;
-  padding-top: 0;
+  font-size:4vw;
+  padding-top:4vw;
   }
 `
 
 
-const Image =styled.div`
-margin 0 auto;
-width: 11vw;
-height: 11vw;
-background-image: url(${(props) => props.imageUrl ||"/img/service_gachiga.png"});
-background-position: center center;
-background-size: cover;
-`
 const ContentsContainer=styled.div`
 justify-content: center;
 item-align: center;
@@ -73,11 +65,22 @@ line-height: 10vw;
 overflow-x: hidden;
 
 }@media screen and (max-width: 768px) {
-
-    width: 120px;
+    width: 24vw;
     height: 120px;
     }
   
+`
+const Image =styled.div`
+margin 0 auto;
+width: 11vw;
+height: 11vw;
+background-image: url(${(props) => props.imageUrl ||"/img/service_gachiga.png"});
+background-position: center center;
+background-size: cover;
+}@media screen and (max-width: 768px) {
+  width: 20vw;
+  height: 20vw;
+  }
 `
 
 function GraphicIcon({imageUrl}){
@@ -103,13 +106,6 @@ function TeamVision(){
           <GraphicIcon imageUrl="/img/environmental.png"/>
           <SubText id="sub" >경력단절여성 대상 일자리 창출<br/>자립준비청년의 홀로 서기 지원</SubText>
           </GraphicContainer>
-          
-          
-        
-        <GraphicContainer>
-          
-          
-        </GraphicContainer>
           </ContentsContainer>
           </Container>
           

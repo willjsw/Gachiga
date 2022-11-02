@@ -24,7 +24,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:left;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 5vw;
     } 
 `
 const Page_3_MainText = styled.div`
@@ -36,7 +36,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
 @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 9vw;
     } 
 `
 const Page_3_SubText = styled.div`
@@ -49,14 +49,14 @@ font-family: "Pretendard-Regular";
 text-align:left;
 line-height: 1.7em; 
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 4vw;
     } 
 `
 const Page_3_Image =styled.div`
 margin-left:13vw;
 width: 47%;
 height: 60vh;
-background-image: url("/img/homepage3.png");
+background-image: url("/img/homepage3.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
@@ -74,7 +74,7 @@ display: none;
     margin-left:13vw;
 width: 47%;
 height: 60vh;
-background-image: url("/img/homepage3.png");
+background-image: url("/img/homepage3.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;

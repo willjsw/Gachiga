@@ -15,7 +15,7 @@ font-weight: bold;
 line-height: 1.7em;
 text-align:center;
 @media screen and (max-width: 768px) {
-  font-size:30px;
+  font-size:6vw;
   padding-bottom: 50px;
   }
 `

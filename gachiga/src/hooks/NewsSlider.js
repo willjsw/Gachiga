@@ -20,7 +20,7 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   width:35.5vw;
   @media screen and (max-width: 768px) {
-    width:100%;
+    width:80vw;
     } 
 `;
 
@@ -58,6 +58,7 @@ export default class NewsSlider extends Component {
           settings: {
             arrows: false,
             centerMode: true,
+            centerPadding: "-15vw",
             slidesToShow: 1
           }
         }

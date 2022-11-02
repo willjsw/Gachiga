@@ -7,6 +7,8 @@ background-color: #f3f3f3;
 justify-content: space-between;
 padding: 25vh 0;
 @media screen and (max-width: 800px) {
+    padding-top: 120px;
+    padding-bottom: 30px;
     display:block;
     }
 `
@@ -34,6 +36,7 @@ const ButtonPositioner =styled.div`
 display: flex;
 padding-top: 10vh;
 @media screen and (max-width: 768px) {
+padding-top: 10vw;
 display: block;
 margin: 0 auto;
 }
@@ -74,8 +77,8 @@ width:100%;
 transition:400ms ease all;
 }
 @media screen and (max-width: 768px) {
-padding:2vh 40px;
-
+padding:4vw 7vw;
+font-size:4vw;
 }
 
 `

@@ -78,6 +78,5 @@
   font-family: "Pretendard-Regular";     
   src: url("./fonts/Pretendard-Regular.otf");
 }
-@media (max-width: 800px) {
-
+@media (max-width: 768px) {
 }

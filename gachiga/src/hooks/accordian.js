@@ -102,13 +102,13 @@ if(category==="category1"){
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls={item.ariacontrol}
                   id={item.headerId} >
-                  <Typography sx={{ width: '50vw;', flexShrink:0 }}>
+                  <Typography sx={{ width: '50vw;', flexShrink:0}}>
                   {item.title}
                   </Typography>
-                  <Typography sx={{ color: 'text.secondary',}}></Typography>
+                  <Typography sx={{ color: 'text.secondary'}}></Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Typography>
+                  <Typography sx={{ color: 'text.secondary'}}>
                   {item.children}
                   </Typography>
                 </AccordionDetails>

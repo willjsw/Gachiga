@@ -8,13 +8,14 @@ padding: 20vh 0;
 @media screen and (max-width: 768px) {
     display:block;
     padding: 15vh 0;
+    justify-content: center;
     }
 `
 const MainImage = styled.div`
 margin-right:11vw;
 width: 37%;
 height: 60vh;
-background-image: url("/img/career.png");
+background-image: url("/img/career.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
@@ -28,11 +29,11 @@ const MainImage_Media = styled.div`
 display: none;
 @media screen and (max-width: 768px) {
  
-    display: block;
-    margin: 0 auto;
+display: block;
+margin: 0 auto;
 width: 70%;
-height: 50vh;
-background-image: url("/img/career.png");
+height: 40vh;
+background-image: url("/img/career.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
@@ -55,7 +56,7 @@ font-family: "Pretendard-Medium";
 text-align:left;
 @media screen and (max-width: 768px) {
     margin-bottom: 50px;
-    font-size:50px;
+    font-size:8vw;
     text-align:center;
     }
 `
@@ -68,7 +69,7 @@ font-family: "Pretendard-Medium";
 text-align:left;
 line-height: 1.7em;
 @media screen and (max-width: 768px) {
-font-size:20px;
+font-size:4vw;
 padding-top: 0vh;
 padding-bottom: 5vh;
 margin: 0 auto;
@@ -76,12 +77,10 @@ text-align:center;
 }
 `
 const ButtonPositioner =styled.div`
-
 padding-top: 10vh;
 @media screen and (max-width: 768px) {
-justify-content: center;
-padding-left:13vw;
-padding-top: 5vh;
+padding-top: 30px;
+margin: 0 auto;
 }
 `
 const Button = styled.button`
@@ -91,12 +90,18 @@ border:none;
 border-radius: 5px;
 font-family: "Pretendard-Medium";
 text-align:center;
-font-size:18px;
+font-size:15px;
 font-weight: bold;
 padding:2vh 5vw;
 cursor:pointer;
 transition:400ms ease all;
 outline:none;
+@media screen and (max-width: 768px) {
+    display: block;
+    padding:15px 90px;
+    font-size:3vw; 
+    margin: 0 auto;
+    }
 
 &:hover{
 
@@ -117,9 +122,7 @@ bottom:0;
 width:100%;
 transition:800ms ease all;
 }
-@media screen and (max-width: 768px) {
-padding:2vh 120px;
-}
+
 
 `
 
@@ -129,17 +132,20 @@ function CareerMain(){
 
     return(
         <MainContainer>
+            
             <TextContainer>
                 <MainText>가치가의 파트너,<br/><span style={{ color: "#01417F" }}>발품 매니저</span></MainText>
                 
                 <SubText>월 최소 20만원의 수입,<br/>원하는 시간에 서비스를 진행하는<br/>발품 매니저에 지원해보세요! </SubText>
                 <MainImage_Media />
                 <ButtonPositioner>
-                    <a href="https://smartstore.naver.com/gachigahome" target="_blank"rel="noopener noreferrer">
+                    <a href="https://gachigahome.modoo.at/?link=cx3hquyq" target="_blank"rel="noopener noreferrer" style={{ textDecoration:"none"}}>
                         <Button>30초만에 지원하기</Button>
-                     </a>
+                 </a>
                 </ButtonPositioner>
             </TextContainer>
+           
+        
            
             
         <MainImage />

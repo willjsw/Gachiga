@@ -20,6 +20,7 @@ const LogoImgPositioner = styled.img`
   width: 100x;
   height: 50px;
   cursor: pointer;
+  
 `;
 
 const CardPositioner = styled.div`
@@ -84,6 +85,9 @@ const Copyright = styled.div`
   letter-spacing: -0.025em;
   margin-top: 10px;
   margin-bottom: 5px;
+  @media screen and (max-width: 800px) {
+    font-size: 3vw
+  }
 `;
 
 function Footer() {

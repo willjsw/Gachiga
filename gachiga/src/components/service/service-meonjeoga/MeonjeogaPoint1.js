@@ -20,7 +20,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:center;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 5vw;
      } 
 `
 const MainText = styled.div`
@@ -32,7 +32,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
 @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 9vw;
      } 
 `
 const SubText = styled.div`
@@ -45,14 +45,14 @@ font-family: "Pretendard-Regular";
 text-align:left;
 line-height: 1.7em; 
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 4vw;
      } 
 `
 const Image =styled.div`
 margin-right:11vw;
 width: 37%;
 height: 60vh;
-background-image: url("/img/mpoint1.png");
+background-image: url("/img/mpoint1.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;

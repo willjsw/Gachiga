@@ -19,7 +19,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular"
 text-align:center;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 5vw;
     }
 `
 const Page_2_MainText = styled.div`
@@ -31,7 +31,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
 @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 9vw;
     }
 `
 const Page_2_SubText = styled.div`
@@ -44,7 +44,7 @@ font-family: "Pretendard-Regular";
 line-height: 1.7em; 
 text-align:left;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 4vw;
     }
 `
 const Page_2_Image =styled.div`
@@ -56,7 +56,7 @@ background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 box-shadow: -0.5vw 0.5vw 1vw gray;
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     margin-top: 30px;
     margin-left: 13vw;
     width: 80%;

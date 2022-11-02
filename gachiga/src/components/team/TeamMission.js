@@ -11,7 +11,7 @@ const Background = styled.div`
 width: 100vw;
 height: 100vh;
 -webkit-filter: brightness(0.30);filter: brightness(0.45);
-background-image: url("/img/mission.png");
+background-image: url("/img/mission.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;
@@ -32,7 +32,7 @@ font-family: "Pretendard-Medium";
 text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
 @media screen and (max-width: 800px) {
-font-size:40px;
+font-size:12vw;
 top:-430px;
 }
 `
@@ -47,7 +47,7 @@ padding-left: 13vw;
 font-family: "Pretendard-Medium";
 text-align:left;
 @media screen and (max-width: 800px) {
-font-size:20px;
+font-size:5vw;
 top:-450px;
 }
 `
