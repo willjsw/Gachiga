@@ -55,7 +55,7 @@ font-size: 1.5vw;
 line-height: 1.5;
 margin-top: 0.4rem;
 @media screen and (max-width: 768px) {
-  font-size: 2.5vw;
+  font-size: 2.3vw;
   } 
 `
 
@@ -68,7 +68,7 @@ function TimeLine(){
   <Wrapper>
     <TimelineUl>
       <TimeLineli>
-        <TimeLineContent>2022 DB-SNUbiz Global Start up Challenge 파이널 라운드 진출</TimeLineContent>
+        <TimeLineContent>2022 DB-SNUbiz Global Start up Challenge<br/>파이널 라운드 진출</TimeLineContent>
       </TimeLineli>
       <TimeLineli>
         <TimeLineContent>제4기 SNU 해동주니어 스타트업 프로그램 참가 기업 선정</TimeLineContent>

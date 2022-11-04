@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import styled, { keyframes } from 'styled-components';
+import TimeLineCss from "../hooks/TimeLine.css";
 
 
 function GachigaTimeLine(){
@@ -13,7 +14,7 @@ function GachigaTimeLine(){
                           <img src={process.env.PUBLIC_URL + '/img/service_store.png'} alt=""/>
                       </div>
                       <div className="ps-bot">
-                          <p>스마트스토어 통해<br/>이용료 결제</p>
+                          <p>스마트스토어 통해 <br/>이용료 결제</p>
                       </div>
                       <span className="ps-sp-bot">01</span>
                   </li>
@@ -22,7 +23,7 @@ function GachigaTimeLine(){
                       <img src={process.env.PUBLIC_URL + '/img/service_advice.png'} alt=""/>
                       </div>
                       <div className="ps-bot">
-                          <p>유선으로 진행되는<br/>맞춤형 상담</p>
+                          <p>유선으로 진행되는<br/> 맞춤형 상담</p>
                       </div>
                       <span className="ps-sp-bot">02</span>
                   </li>
@@ -31,7 +32,7 @@ function GachigaTimeLine(){
                       <img src={process.env.PUBLIC_URL + '/img/service_match.png'} alt=""/>
                       </div>
                       <div className="ps-bot">
-                          <p>매니저 매칭</p>
+                          <p><Br_Media/>매니저 매칭</p>
                       </div>
                       <span className="ps-sp-bot">03</span>
                   </li>
@@ -40,7 +41,7 @@ function GachigaTimeLine(){
                       <img src={process.env.PUBLIC_URL + '/img/service_accompany.png'} alt=""/>
                       </div>
                       <div className="ps-bot">
-                          <p>매물 확인 동행</p>
+                          <p><Br_Media/>매물 확인 동행</p>
                       </div>
                       <span className="ps-sp-bot">04</span>
                   </li>
@@ -49,7 +50,7 @@ function GachigaTimeLine(){
                       <img src={process.env.PUBLIC_URL + '/img/service_send.png'} alt=""/>
                       </div>
                       <div className="ps-bot">
-                          <p>가치가 페이퍼 전송</p>
+                          <p><Br_Media />가치가 페이퍼 전송</p>
                       </div>
                       <span className="ps-sp-bot">05</span>
                   </li>
@@ -71,4 +72,9 @@ const Container = styled.div`
     margin-right :11vw;
   background: #fafafa;
   box-sizing: border-box;
+`
+const Br_Media = styled.br`
+@media screen and (max-width: 768px) {
+    display: none;
+    } 
 `

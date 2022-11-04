@@ -32,7 +32,7 @@ function MeonjeogaTimeLine(){
                     <img src={process.env.PUBLIC_URL + '/img/service_match.png'} alt=""/>
                     </div>
                     <div className="ps-bot">
-                        <p>매니저 매칭</p>
+                        <p><Br_Media />매니저 매칭</p>
                     </div>
                     <span className="ps-sp-bot">03</span>
                 </li>
@@ -41,7 +41,7 @@ function MeonjeogaTimeLine(){
                     <img src={process.env.PUBLIC_URL + '/img/service_paper.png'} alt=""/>
                     </div>
                     <div className="ps-bot">
-                        <p>매물 사전 점검</p>
+                        <p><Br_Media />매물 사전 점검</p>
                     </div>
                     <span className="ps-sp-bot">04</span>
                 </li>
@@ -50,7 +50,7 @@ function MeonjeogaTimeLine(){
                     <img src={process.env.PUBLIC_URL + '/img/service_send.png'} alt=""/>
                     </div>
                     <div className="ps-bot">
-                        <p>가치가 페이퍼 전송</p>
+                        <p><Br_Media />가치가 페이퍼 전송</p>
                     </div>
                     <span className="ps-sp-bot">05</span>
                 </li>
@@ -72,4 +72,10 @@ const Container = styled.div`
   margin-right :11vw;
   background: #fafafa;
   box-sizing: border-box;
+`
+
+const Br_Media = styled.br`
+@media screen and (max-width: 768px) {
+    display: none;
+    } 
 `

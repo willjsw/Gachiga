@@ -156,11 +156,12 @@
 
 .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
   position: absolute;
-  bottom: 5vw;
+  bottom: 12vh;
   margin-bottom: 5vw;
   width: 100%;
 }
 .ps-timeline-sec .container ol.ps-timeline li .img-handler-top img {
+
   width: 40%;
   display: block;
   margin: 0 auto;

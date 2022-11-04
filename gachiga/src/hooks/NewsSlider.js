@@ -20,7 +20,7 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   width:35.5vw;
   @media screen and (max-width: 768px) {
-    width:80vw;
+    width:75vw;
     } 
 `;
 

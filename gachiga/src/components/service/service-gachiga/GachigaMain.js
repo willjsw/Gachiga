@@ -8,7 +8,7 @@ background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 @media screen and (max-width: 768px) {
-    background-position: -180vw center;
+    background-image: url("/img/main_media.jpg");
     width: 100vw;
     height: 230vw;
     }
@@ -28,13 +28,14 @@ font-size:40px;
 `
 const SubText = styled.div`
 color: white;
-font-size: 2vw;
+font-size: 1.7vw;
 font-weight: bold;
 padding-top: 4vh;
 padding-left: 13vw;
 font-family: "Pretendard-Medium";
 text-align:left;
 @media screen and (max-width: 768px) {
+padding-top: 20px;
 font-size:20px;
 }
 `

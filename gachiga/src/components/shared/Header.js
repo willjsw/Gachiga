@@ -155,7 +155,7 @@ padding: 10px 13vw;
 function NavItem(props) {
   const [open, setOpen] = useState(false);
   return (
-    <Link to={props.link} style={{ textDecoration: 'none' }} className="link-line">
+    <Link to={props.link} style={{ textDecoration: 'none' }}>
       <MenuName 
         onMouseEnter={() => setOpen(!open)}
         onMouseLeave={() => setOpen(false)}> 

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Br from "../../shared/Br";
 
 const Container = styled.div`
 background-color: #fff;
@@ -71,7 +72,7 @@ function MeonjeogaPoint1(){
         <Container>
         <TextContainer>
             <Title>Point 1</Title>
-            <MainText>발품 매니저의 매물 확인</MainText>
+            <MainText>발품 매니저의 <Br/>매물 확인</MainText>
             <SubText>거주 희망 사항 최우선 반영,<br/>직접 가보지 않아도<br/>믿고 맡길 수 있는 발품 팔기<br/>집안 곳곳의 요소를 체크하는 매니저</SubText>
         </TextContainer>
         <Image />

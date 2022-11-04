@@ -33,7 +33,7 @@ function App() {
                 <Route path="/service/meonjeoga" exact={true} element={<Service_Meonjeoga />} />
                 <Route path="/faq" exact={true} element={<FAQ />} />
                 <Route path="/career" exact={true} element={<Career />} />
-                <Route path="/terms/tos" exact={true} element={<Terms />} />
+                <Route path="/terms" exact={true} element={<Terms />} />
             </Routes>
         </FontStyle>
     </Container>

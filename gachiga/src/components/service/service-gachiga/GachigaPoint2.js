@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Br from "../../shared/Br";
 
 const Container = styled.div`
 background-color: #fff;
@@ -35,7 +36,7 @@ font-weight: bold;
 font-family: "Pretendard-Regular";
 text-align:left;
 @media screen and (max-width: 768px) {
-    font-size: 9vw;
+    font-size: 8vw;
      } 
 `
 const SubText = styled.div`
@@ -89,7 +90,7 @@ function GachigaPoint2(){
             <Image />
             <TextContainer>
               <Title>Point 2</Title>
-                <MainText>60여개 항목의<br/>집 구하기 체크리스트</MainText>
+                <MainText>60여개 항목의<br/>집 구하기 <Br/>체크리스트</MainText>
                 <SubText>채광, 통풍, 수압, 배수, 방음 등<br/>혼자 확인하기 어려운 항목까지<br/>모두 꼼꼼히 확인</SubText>
              </TextContainer>
              <Image_Media />

@@ -71,7 +71,7 @@ function HomePage2(){
         <Page_2_TextContainer>
             <Page_2_Title>발품 매니저</Page_2_Title>
             <Page_2_MainText>집 구하기에도<br/>전문가가 있다는 사실,<br/>알고 계셨나요?</Page_2_MainText>
-            <Page_2_SubText>풍부한 매물 확인 경험<br/>중개보조원 직무교육<br/>가치가의 서비스 교육을 모두 이수한 발품 매니저</Page_2_SubText>
+            <Page_2_SubText>풍부한 매물 확인 경험<br/>중개보조원 직무교육과<br/>가치가의 서비스 교육을 모두 이수한 발품 매니저</Page_2_SubText>
         </Page_2_TextContainer>
         <Page_2_Image />
     </Page_2_Container>

@@ -44,7 +44,7 @@ const Image =styled.div`
 margin: 0 auto;
 width: 50%;
 height: 60vh;
-background-image: url("/img/people.jpeg");
+background-image: url("/img/people.jpg");
 background-position: center center;
 background-size: cover;
 overflow-x: hidden;

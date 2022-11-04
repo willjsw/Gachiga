@@ -54,7 +54,7 @@ function HomePage4(){
             <Page_4_TextContainer>
                 <Page_4_Title>가치가 페이퍼</Page_4_Title>
                     <Page_4_MainText>나만을 위한 페이퍼</Page_4_MainText>
-                <Page_4_SubText>60여개의 매물 확인 항목, 직접 촬영한 사진<br/>매물 현장을 생생하게 전달합니다.</Page_4_SubText>
+                <Page_4_SubText>60여 개의 매물 확인 항목, 직접 촬영한 사진<br/>매물 현장을 생생하게 전달합니다.</Page_4_SubText>
             </Page_4_TextContainer>
             <Page_4_SlickContainer>
             <PaperSlider />

@@ -96,12 +96,16 @@ function Footer() {
       
       <CardPositioner>
       
-        <Anchor href="https://blog.naver.com/gachiga_home" target="_blank">
+        <Anchor href="https://blog.naver.com/gachiga_home" target="_blank" >
           <Card>블로그</Card>
         </Anchor>
-        <Anchor href="/terms/tos" target="_blank">
+
+        <Anchor>
+        <Link to="/terms" style={{ textDecoration: 'none' }} target="_blank">
         <Card>이용약관</Card>
+        </Link>
         </Anchor>
+
         <Anchor href="https://instagram.com/gachiga.home?igshid=YmMyMTA2M2Y=" target="_blank">
           <IconImgPositioner src={
             process.env.PUBLIC_URL + '/img/instagram_icon.png'
@@ -113,7 +117,7 @@ function Footer() {
       <LogoImgPositioner
            src={
             process.env.PUBLIC_URL + '/img/gachiga_white.png'
-            } alt="로고"
+            } alt="가치가 로고"
           />
       <TextPositioner> 
  

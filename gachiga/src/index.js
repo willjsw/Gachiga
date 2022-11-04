@@ -13,7 +13,6 @@ root.render(
     <BrowserRouter>
     <ScrollToTop></ScrollToTop>
       <App />
-      
     </BrowserRouter>
   </React.StrictMode>,
 );

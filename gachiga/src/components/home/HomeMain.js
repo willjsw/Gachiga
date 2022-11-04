@@ -14,11 +14,13 @@ background-position: center center;
 background-size: cover;
 overflow-x: hidden;
 @media screen and (max-width: 768px) {
-    background-position: -180vw; center;
+    background-image: url("/img/main_media.jpg");
     width: 100vw;
     height: 230vw;
     }
 `
+
+
 const MainText = styled.div`
 color: white;
 font-size:60px;
@@ -36,7 +38,7 @@ const ButtonPositioner =styled.div`
 padding-left:13vw;
 padding-top: 20vh;
 @media screen and (max-width: 768px) {
-padding-top: 55vh;
+padding-top: 65vh;
 margin: 0 auto;
 padding-left:0;
 }
@@ -91,7 +93,7 @@ function HomeMain(){
         <Background>
             <MainText>내 집 구하기,<br/>전문가와 현명하게!</MainText>
                 <ButtonPositioner>
-                    <a href="https://smartstore.naver.com/gachigahome" target="_blank"rel="noopener noreferrer" style={{ textDecoration:"none"}}>
+                    <a href="https://smartstore.naver.com/gachigahome" target="_blank" style={{ textDecoration:"none"}}>
                         <Button>서비스 예약하기</Button>
                     </a>
                 </ButtonPositioner>

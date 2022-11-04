@@ -138,7 +138,7 @@ function CareerMain(){
                 <SubText>월 최소 20만원의 수입,<br/>원하는 시간에 서비스를 진행하는<br/>발품 매니저에 지원해보세요! </SubText>
                 <MainImage_Media />
                 <ButtonPositioner>
-                    <a href="https://gachigahome.modoo.at/?link=cx3hquyq" target="_blank"rel="noopener noreferrer" style={{ textDecoration:"none"}}>
+                    <a href="https://gachigahome.modoo.at/?link=cx3hquyq" target="_blank" style={{ textDecoration:"none"}}>
                         <Button>30초만에 지원하기</Button>
                  </a>
                 </ButtonPositioner>
