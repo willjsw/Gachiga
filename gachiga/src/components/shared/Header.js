@@ -93,7 +93,7 @@ const MenuName = styled.ul`
   font-weight: bold;
   color: black;
   border-bottom:3px solid white;
-  padding:0.5em 1em;
+  padding:10px 25px;
   
   &:hover {
     color: #01417F;
@@ -103,7 +103,7 @@ const MenuName = styled.ul`
 `
 const MenuDropDown = styled.ul`
 cursor: pointer; 
-right: 190px;
+right: 230px;
 transition: all 0.5s ease;
 align-items: center;
 margin-top:13px;
@@ -116,7 +116,7 @@ margin: auto;
 transition: all 0.2s ease;
 color: black;
 background-color: white;
-padding:10px 42px;
+padding:10px 52px;
 list-style-type:none;
 font-size: 15px;
 font-weight: bold;
