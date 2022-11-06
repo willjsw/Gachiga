@@ -69,7 +69,7 @@ const MenuElementPositioner = styled.div`
 const MenuButton = styled.button`
 width: fit-content;
 margin-right: 11vw;
-padding: 0.5rem 1rem;
+padding: 0.5em 1em;
 text-align: center;
 display: inline-block;
 background-color: #fff;
@@ -93,7 +93,7 @@ const MenuName = styled.ul`
   font-weight: bold;
   color: black;
   border-bottom:3px solid white;
-  padding:10px 20px;
+  padding:0.5em 1em;
   
   &:hover {
     color: #01417F;
@@ -103,11 +103,11 @@ const MenuName = styled.ul`
 `
 const MenuDropDown = styled.ul`
 cursor: pointer; 
-right: 188px;
+right: 190px;
 transition: all 0.5s ease;
 align-items: center;
 margin-top:13px;
-margin-right:11.3vw;
+margin-right:11vw;
 position: absolute;
 display: block;
 `

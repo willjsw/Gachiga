@@ -9,6 +9,7 @@ justify-content: space-between;
 const Title = styled.div`
 
 text-align: center;
+margin-bottom: 15vw;
 justify-content:center;
 color: black;
 font-size:3vw;
