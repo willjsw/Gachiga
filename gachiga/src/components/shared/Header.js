@@ -84,16 +84,24 @@ display: none;
   display: block;
   }
 `
-const MenuName = styled.ul`
-  transition:  all 0.3s ease;
-  float:left;
+const MenuUl = styled.ul`
+list-style:none; 
+margin:0; 
+padding:0;
+`
+
+const MenuName = styled.li`
+  text-align:center; 
+  display:inline-block;
+  position:relative;
+  width:90px;
   font-size: 15px;
   font-family: "Pretendard-Medium";
   font-weight: bold;
   color: black;
   border-bottom:3px solid white;
   padding:10px 20px;
-  
+  transition:  all 0.3s ease;
   &:hover {
     color: #01417F;
     border-bottom: 3px inset #01417F;
@@ -103,18 +111,21 @@ const MenuName = styled.ul`
 const MenuDropDown = styled.ul`
 cursor: pointer; 
 position:absolute;
-right: 209px;
+top:42px; 
+left:0;
 transition: all 0.5s ease;
-margin-top:13px;
-margin-right:11vw;
-position: absolute;
+
+
 `
 const MenuItem = styled.li`
+display:inline-block;
+text-align:center;
 margin: 0 auto;
 transition: all 0.2s ease;
 color: black;
 background-color: white;
-padding:10px 49px;
+width:90px; 
+padding:10px 20px;
 list-style-type:none;
 font-size: 15px;
 font-weight: bold;
@@ -208,8 +219,8 @@ function Header() {
             } alt="로고"
           />
         </Link>
-
         <MenuElementPositioner>
+          <MenuUl>
           <NavItem link ="/team" menu="회사 소개" />
           <NavItem menu="서비스 소개 ▾">
                 <MenuDropDown>
@@ -219,6 +230,7 @@ function Header() {
             </NavItem>
             <NavItem link="/faq" menu="자주 묻는 질문" />
             <NavItem link="/career" menu="채용" />
+            </MenuUl>
         </MenuElementPositioner>
         <MenuButton>
         {!SideMenuOpen ? <AiOutlineMenu size="30" onClick ={IsSideMenuOpen}/> : <CloseIcon size="30" onClick ={IsSideMenuOpen}/>}
