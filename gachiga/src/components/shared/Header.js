@@ -86,14 +86,13 @@ display: none;
 `
 const MenuName = styled.ul`
   transition:  all 0.3s ease;
-  postion: relative;
   float:left;
   font-size: 15px;
   font-family: "Pretendard-Medium";
   font-weight: bold;
   color: black;
   border-bottom:3px solid white;
-  padding:10px 25px;
+  padding:10px 20px;
   
   &:hover {
     color: #01417F;
@@ -103,20 +102,19 @@ const MenuName = styled.ul`
 `
 const MenuDropDown = styled.ul`
 cursor: pointer; 
-right: 230px;
+position:absolute;
+right: 209px;
 transition: all 0.5s ease;
-align-items: center;
 margin-top:13px;
 margin-right:11vw;
 position: absolute;
-display: block;
 `
 const MenuItem = styled.li`
-margin: auto;
+margin: 0 auto;
 transition: all 0.2s ease;
 color: black;
 background-color: white;
-padding:10px 52px;
+padding:10px 49px;
 list-style-type:none;
 font-size: 15px;
 font-weight: bold;
