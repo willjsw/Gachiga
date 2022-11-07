@@ -94,7 +94,7 @@ const MenuName = styled.li`
   text-align:center; 
   display:inline-block;
   position:relative;
-  width:90px;
+  width:${(props) => (props.width || "100px")};
   font-size: 15px;
   font-family: "Pretendard-Medium";
   font-weight: bold;
@@ -112,7 +112,7 @@ const MenuDropDown = styled.ul`
 cursor: pointer; 
 position:absolute;
 top:42px; 
-left:0;
+left:-29%;
 transition: all 0.5s ease;
 
 
@@ -124,7 +124,7 @@ margin: 0 auto;
 transition: all 0.2s ease;
 color: black;
 background-color: white;
-width:90px; 
+width:100px; 
 padding:10px 20px;
 list-style-type:none;
 font-size: 15px;
@@ -165,7 +165,7 @@ function NavItem(props) {
   const [open, setOpen] = useState(false);
   return (
     <Link to={props.link} style={{ textDecoration: 'none' }}>
-      <MenuName 
+      <MenuName width={props.width}
         onMouseEnter={() => setOpen(!open)}
         onMouseLeave={() => setOpen(false)}> 
         {props.menu}
@@ -221,15 +221,15 @@ function Header() {
         </Link>
         <MenuElementPositioner>
           <MenuUl>
-          <NavItem link ="/team" menu="회사 소개" />
-          <NavItem menu="서비스 소개 ▾">
+          <NavItem  width="70px" link ="/team" menu="회사 소개" />
+          <NavItem  width="100px" menu="서비스 소개 ▾">
                 <MenuDropDown>
                 <Link to="/service/gachiga" style={{ textDecoration: 'none' }} ><MenuItem>가치가</MenuItem></Link>
                 <Link to="/service/meonjeoga" style={{ textDecoration: 'none' }}><MenuItem>먼저가</MenuItem></Link>
                 </MenuDropDown>
             </NavItem>
-            <NavItem link="/faq" menu="자주 묻는 질문" />
-            <NavItem link="/career" menu="채용" />
+            <NavItem width="100px" link="/faq" menu="자주 묻는 질문" />
+            <NavItem  width="60px" link="/career" menu="채용" />
             </MenuUl>
         </MenuElementPositioner>
         <MenuButton>
