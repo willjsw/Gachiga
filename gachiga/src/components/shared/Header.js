@@ -41,14 +41,14 @@ top: ${(props) => (!props.SideMenuOpen ? "-500px" : "70px")};
   background-color: white;
   width: 100%;
   height: 500px;
-  display: block;
+  display: none;
   align-items: center;
   justify-content: space-between;
   padding-top: 30px;
   transition: all 0.5s ease-in-out;
   z-index: 100;
-  @media screen and (max-width: 768px) {
-    display: block;
+  @media screen and (max-width: 800px) {
+    display:block;
     }
 
 `
@@ -61,7 +61,7 @@ const LogoImgPositioner = styled.img`
 const MenuElementPositioner = styled.div`
   width: fit-content;
   margin-right: 11vw;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     display: none;
     }
 `
@@ -80,7 +80,7 @@ display: none;
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   display: block;
   }
 `
@@ -221,14 +221,14 @@ function Header() {
         </Link>
         <MenuElementPositioner>
           <MenuUl>
-          <NavItem  width="70px" link ="/team" menu="회사 소개" />
+          <NavItem  width="90px" link ="/team" menu="회사 소개" />
           <NavItem  width="100px" menu="서비스 소개 ▾">
                 <MenuDropDown>
                 <Link to="/service/gachiga" style={{ textDecoration: 'none' }} ><MenuItem>가치가</MenuItem></Link>
                 <Link to="/service/meonjeoga" style={{ textDecoration: 'none' }}><MenuItem>먼저가</MenuItem></Link>
                 </MenuDropDown>
             </NavItem>
-            <NavItem width="100px" link="/faq" menu="자주 묻는 질문" />
+            <NavItem width="110px" link="/faq" menu="자주 묻는 질문" />
             <NavItem  width="60px" link="/career" menu="채용" />
             </MenuUl>
         </MenuElementPositioner>
