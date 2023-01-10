@@ -71,11 +71,13 @@
 
 
 @font-face {
-  font-family: "Pretendard-Medium";     
+  font-family: "Pretendard-Medium",'Apple SD Gothic Neo';
+  font-style: normal;     
   src: url("./fonts/Pretendard-Medium.otf");
 }
 @font-face {
-  font-family: "Pretendard-Regular";     
+  font-family: "Pretendard-Regular",'Apple SD Gothic Neo';
+  font-style: normal;     
   src: url("./fonts/Pretendard-Regular.otf");
 }
 @media (max-width: 768px) {

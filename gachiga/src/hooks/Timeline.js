@@ -50,7 +50,7 @@ const TimeLineli = styled.li`
 `
 const TimeLineContent = styled.p`
 color: #01417F;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 font-size: 1.5vw;
 line-height: 1.5;
 margin-top: 0.4rem;
@@ -81,6 +81,15 @@ function TimeLine(){
       </TimeLineli>
       <TimeLineli>
         <TimeLineContent>2022년도 제15기 아이디어 사업화 발표대회 <br/>SHOW ME THE ITEM_신촌점 ‘우수선정자’ 선발</TimeLineContent>
+      </TimeLineli>
+      <TimeLineli>
+        <TimeLineContent>현대해상 씨앗 프로그램 준우승</TimeLineContent>
+      </TimeLineli>
+      <TimeLineli>
+        <TimeLineContent>SC제일은행 청년제일 프로젝트 시즌3 준우승</TimeLineContent>
+      </TimeLineli>
+      <TimeLineli>
+        <TimeLineContent>이데일리 아이디어 유니버시아드 고용부문 우수상</TimeLineContent>
       </TimeLineli>
     </TimelineUl>
   </Wrapper>

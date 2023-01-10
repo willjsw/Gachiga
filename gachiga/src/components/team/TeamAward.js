@@ -21,7 +21,7 @@ justify-content:center;
 color: #01417F;
 font-size:3.5vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 @media screen and (max-width: 768px) {
     font-size:40px;

@@ -24,17 +24,15 @@ const Image = styled.img`
     } 
 `;
 
-const imgUrl1 = process.env.PUBLIC_URL + '/img/news.jpeg';
-const imgUrl2 = process.env.PUBLIC_URL + '/img/comingsoon.jpeg';
-const imgUrl3 = process.env.PUBLIC_URL + '/img/news.jpeg';
-const imgUrl4 = process.env.PUBLIC_URL + '/img/comingsoon.jpeg';
+const imgUrl1 = process.env.PUBLIC_URL + '/img/news1.jpeg';
+const imgUrl2 = process.env.PUBLIC_URL + '/img/news2.jpg';
+const imgUrl3 = process.env.PUBLIC_URL + '/img/news3.jpg';
 
 
 const items = [
   { id: 1, url: imgUrl1, href:"http://www.dailypop.kr/news/articleView.html?idxno=63755" },
-  { id: 2, url: imgUrl2, href: "javascript:void(0)"},
-  { id: 3, url: imgUrl3, href: "http://www.dailypop.kr/news/articleView.html?idxno=63755"},
-  { id: 4, url: imgUrl4, href: "javascript:void(0)"}
+  { id: 2, url: imgUrl2, href: "https://n.news.naver.com/article/018/0005383335?sid=101"},
+  { id: 3, url: imgUrl3, href: "http://www.startupdaily.kr/news/articleView.html?idxno=2342"},
 ];
 
 

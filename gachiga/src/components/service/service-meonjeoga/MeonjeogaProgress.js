@@ -13,7 +13,7 @@ margin-bottom: 15vw;
 color: black;
 font-size:3vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 @media screen and (max-width: 768px) {
     font-size: 4.5vw;
     }

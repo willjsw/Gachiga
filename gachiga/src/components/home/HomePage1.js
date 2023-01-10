@@ -9,8 +9,8 @@ padding-bottom: 15vh;
 text-align:center;
 justify-content:center;
 color: black;
-font-size:2.5vw;
-font-family: "Pretendard-Regular";
+font-size:2.3vw;
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 font-weight: bold;
 line-height: 1.7em;
 text-align:center;
@@ -46,7 +46,7 @@ const StyledGraphicText = styled.div`
 color: #01417F;
 font-size: ${(props) => props.fontsize || "20px"};
 font-weight: ${(props) => props.fontweight || "600"};
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 margin-top:${(props) => props.margintop || "0"};
 @media screen and (max-width: 768px) {
@@ -64,7 +64,7 @@ return (
 function HomePage1(){
     return(
         <Page_1_Container>
-        <Page_1_Title>7월 13일부터 13명의 청년들이<br/>가치가를 선택했습니다.</Page_1_Title>
+        <Page_1_Title>22년 7월 13일부터 30명의 청년들이<br/>가치가를 선택했습니다.</Page_1_Title>
         <GraphicContainer>
           <GraphicCircle>
           <GraphicText fontsize="1.5vw" margintop="2.5vw">서비스 만족도</GraphicText>

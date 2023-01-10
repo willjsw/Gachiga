@@ -96,7 +96,7 @@ const MenuName = styled.li`
   position:relative;
   width:${(props) => (props.width || "100px")};
   font-size: 15px;
-  font-family: "Pretendard-Medium";
+  font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
   font-weight: bold;
   color: black;
   border-bottom:3px solid white;
@@ -129,7 +129,7 @@ padding:10px 20px;
 list-style-type:none;
 font-size: 15px;
 font-weight: bold;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 
 &:hover {
   color: #01417F;
@@ -141,7 +141,7 @@ const DropMenu = styled.div`
 font-size: 30px;
 color: black;
 padding: 20px 13vw;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 &:hover {
   color: #01417F;
   background-color: #f1f1f1;
@@ -152,7 +152,7 @@ const DropSubMenu = styled.div`
 transition: all 0.5s ease-in-out;
 font-size: 20px;
 color: black;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 padding: 10px 13vw;
 &:hover {
   color: #01417F;

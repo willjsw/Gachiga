@@ -16,7 +16,7 @@ justify-content:center;
 color: #fff;
 font-size:4vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 @media screen and (max-width: 768px) {
   margin: 0 auto;
@@ -30,7 +30,7 @@ margin-top: 3vw;
 color: #cfcfcf;
 font-size:1.6vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 line-height: 1.7em; 
 

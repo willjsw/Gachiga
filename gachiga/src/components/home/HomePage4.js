@@ -13,7 +13,7 @@ const Page_4_Title = styled.div`
 color: #fff;
 font-size: 1.5vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 @media screen and (max-width: 768px) {
     font-size: 5vw;
@@ -24,7 +24,7 @@ margin-top:4vh;
 color: #fff;
 font-size:3vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 @media screen and (max-width: 768px) {
     font-size: 9vw;
@@ -35,7 +35,7 @@ margin-top:4vh;
 color: #cfcfcf;
 font-size:1.3vw;
 font-weight: bold;
-font-family: "Pretendard-Regular"
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 line-height: 1.7em;
 @media screen and (max-width: 768px) {

@@ -53,7 +53,7 @@ const MainText = styled.div`
 color: black;
 font-size:3.5vw;
 font-weight: bold;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
 @media screen and (max-width: 768px) {
@@ -67,7 +67,7 @@ color: #333d4b;
 font-size: 1.5vw;
 font-weight: bold;
 padding-top: 17vh;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 @media screen and (max-width: 768px) {
 font-size:20px;

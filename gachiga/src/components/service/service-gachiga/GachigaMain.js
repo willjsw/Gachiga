@@ -19,7 +19,7 @@ font-size:5vw;
 font-weight: bold;
 padding-left: 13vw;
 padding-top: 30vh;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 animation: fadeInText 3s 2s ease-out forwards;
 @media screen and (max-width: 768px) {
@@ -32,7 +32,7 @@ font-size: 1.7vw;
 font-weight: bold;
 padding-top: 4vh;
 padding-left: 13vw;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 @media screen and (max-width: 768px) {
 padding-top: 20px;

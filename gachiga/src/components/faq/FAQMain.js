@@ -24,7 +24,7 @@ color: black;
 font-size:3vw;
 font-weight: bold;
 
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 
 animation: fadeInText 3s 2s ease-out forwards;
@@ -48,7 +48,7 @@ background:#01417F;
 color:#fff;
 border-radius:5px;
 border:none;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 font-size:18px;
 font-weight: bold;

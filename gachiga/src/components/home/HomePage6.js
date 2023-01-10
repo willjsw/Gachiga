@@ -52,7 +52,7 @@ function Page_6_CardImage({imageUrl}){
 }
 const Page_6_CardTitle = styled.div`
 color: #333d4b;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 font-size: 1.5vw;
 font-weight: bold;
 text-align:center;
@@ -63,7 +63,7 @@ padding: 1vw;
 `
 const Page_6_CardText = styled.div`
 color: #333d4b;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 font-size: 1.2vw;
 font-weight: bold;
 text-align:center;
@@ -83,7 +83,7 @@ const Page_6_MainText = styled.div`
 color: #333d4b;
 font-size:3vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 @media screen and (max-width: 768px) {
     font-size: 9vw;
@@ -94,7 +94,7 @@ margin-top: 5vh;
 color: #01417F;
 font-size: 1.5vw;
 font-weight: bold;
-font-family: "Pretendard-Regular"
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 @media screen and (max-width: 768px) {
     font-size: 5vw;

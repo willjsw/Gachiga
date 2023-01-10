@@ -51,7 +51,7 @@ const MainText = styled.div`
 color: black;
 font-size:3vw;
 font-weight: bold;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 @media screen and (max-width: 768px) {
     margin-bottom: 50px;
@@ -64,7 +64,7 @@ color: #333d4b;
 font-size: 20px;
 font-weight: bold;
 padding-top: 10vh;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 line-height: 1.7em;
 @media screen and (max-width: 768px) {
@@ -87,7 +87,7 @@ background:#01417F;
 color:#fff;
 border:none;
 border-radius: 5px;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 font-size:15px;
 font-weight: bold;

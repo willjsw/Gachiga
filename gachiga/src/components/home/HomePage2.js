@@ -16,8 +16,8 @@ margin-left: 13vw;
 color: #01417F;
 font-size: 1.5vw;
 font-weight: bold;
-font-family: "Pretendard-Regular"
-text-align:center;
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
+text-align:left;
 @media screen and (max-width: 768px) {
     font-size: 5vw;
     }
@@ -28,7 +28,7 @@ margin-top: 4vh;
 color: #333d4b;
 font-size: 3vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 @media screen and (max-width: 768px) {
     font-size: 9vw;
@@ -40,7 +40,7 @@ margin-top:4vh;
 color: #757575;
 font-size:1.3vw;
 font-weight: bold;
-font-family: "Pretendard-Regular";
+font-family: "Pretendard-Regular","Apple SD Gothic Neo","sans-serif";
 line-height: 1.7em; 
 text-align:left;
 @media screen and (max-width: 768px) {

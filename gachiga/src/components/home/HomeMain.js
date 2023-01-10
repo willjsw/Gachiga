@@ -27,7 +27,7 @@ font-size:60px;
 font-weight: bold;
 padding-left: 13vw;
 padding-top: 30vh;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:left;
 @media screen and (max-width: 768px) {
 padding-top: 20vh;
@@ -48,7 +48,7 @@ background:#01417F;
 color:#fff;
 border:none;
 border-radius: 5px;
-font-family: "Pretendard-Medium";
+font-family: "Pretendard-Medium","Apple SD Gothic Neo","sans-serif";
 text-align:center;
 font-size:18px;
 font-weight: bold;
